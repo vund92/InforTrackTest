@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="reporting.Setup"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="true"
+          name="E:/Terabox Backup/Automation Projects/InforTrackTest/src/test/java/reqres/LoginTests.java">
+        <classes>
+            <class name="reqres.LoginTests">
+                <methods>
+                    <include name="loginTests"/>
+                </methods>
+            </class>
+            <class name="reqres.CreateAUserTests">
+                <methods>
+                    <include name="createAUserTests"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
