@@ -51,4 +51,6 @@ public class AssertionUtils {
                 .toArray(String[][] :: new);
         Setup.extentTest.get().info(MarkupHelper.createTable(finalAssertionsMap));
     }
+
+    public static String createdAtRegexPattern = "[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}(\\.[0-9]+)?([Zz]|([\\+-])([01]\\d|2[0-3]):?([0-5]\\d)?)?";
 }

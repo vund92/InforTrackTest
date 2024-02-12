@@ -2,7 +2,6 @@ package reqres;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
@@ -61,7 +60,7 @@ public class ReqresUserTests extends  ReqresUserAPIs {
     @Test()
     public void createReqresDraft5() throws IOException {
         String env = System.getProperty("env") == null ? "qa" : System.getProperty("env");
-        Map<String, String> data = JsonUtils.getJsonDataAsMapDraft("reqres/qa/reqresApiData.json");
+        Map<String, String> data = JsonUtils.getJsonDataAsMapDraft("reqres/qa/reqresApiDataEndPoints.json");
         String endPoint = data.get("api.user");
         Map<String, Object> payLoad = Payloads.getCreateReqresUserPayloadFromMap("Nguyen Ngoc Ngan", "Author");
         Response response = RestUtils.performPost(endPoint, payLoad, new HashMap<>());
@@ -72,7 +71,7 @@ public class ReqresUserTests extends  ReqresUserAPIs {
     public void createReqresDraft6() throws IOException {
         System.out.println(System.getProperty("evn") + " Evn value"); //command line: mvn clean test -Devn=qa
         String env = System.getProperty("env") == null ? "qa" : System.getProperty("env");
-        Map<String, String> data = JsonUtils.getJsonDataAsMapDraft("reqres/" + env + "/reqresApiData.json");
+        Map<String, String> data = JsonUtils.getJsonDataAsMapDraft("reqres/" + env + "/reqresApiDataEndPoints.json");
         String endPoint = data.get("api.user");
         Map<String, Object> payLoad = Payloads.getCreateReqresUserPayloadFromMap("Ho Ngoc Ha", "Singer");
         Response response = RestUtils.performPost(endPoint, payLoad, new HashMap<>());
@@ -83,7 +82,7 @@ public class ReqresUserTests extends  ReqresUserAPIs {
     public void createReqresDraft7() throws IOException {
         System.out.println(System.getProperty("evn") + " Evn value"); //command line: mvn clean test -Devn=qa
         String env = System.getProperty("env") == null ? "qa" : System.getProperty("env");
-        Map<String, String> data = JsonUtils.getJsonDataAsMapDraft("reqres/" + env + "/reqresApiData.json");
+        Map<String, String> data = JsonUtils.getJsonDataAsMapDraft("reqres/" + env + "/reqresApiDataEndPoints.json");
         String endPoint = data.get("api.user");
         Map<String, Object> payLoad = Payloads.getCreateReqresUserPayloadFromMap("Ailee", "Singer");
         Response response = RestUtils.performPost(endPoint, payLoad, new HashMap<>());

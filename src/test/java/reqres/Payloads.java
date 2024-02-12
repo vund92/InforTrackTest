@@ -1,8 +1,8 @@
 package reqres;
 
+import net.datafaker.Faker;
 import reqres.pojos.Login;
 import reqres.pojos.ReqresUser;
-import net.datafaker.Faker;
 import utils.RandomDataGenerator_Reqres;
 import utils.RandomDataTypeNames_Reqres;
 
@@ -10,7 +10,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Payloads {
-
     public static String getCreateReqresUserPayloadFromString(String name, String job) {
         String payload = "{\n" +
                 "        \"name\": "+name+",\n" +

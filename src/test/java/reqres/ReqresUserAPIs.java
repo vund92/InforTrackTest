@@ -1,9 +1,7 @@
 package reqres;
 
-import com.aventstack.extentreports.ExtentTest;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.response.Response;
-import reporting.Setup;
 import reqres.pojos.CreateReqresUser;
 import reqres.pojos.Login;
 import reqres.pojos.ReqresUser;
@@ -19,17 +17,17 @@ public class ReqresUserAPIs {
     private static final String PROJECT_PATH = System.getProperty("user.dir");
 
     public Response createReqresUser(Map<String,Object> createReqresPayload) {
-        String endPoint = (String) Base.dataFromJsonFile.get("api.user");
+        String endPoint = (String) Base.dataFromJsonFile.get("api.users");
         return RestUtils.performPost(endPoint,createReqresPayload, new HashMap<>());
     }
 
     public Response createReqresUser(ReqresUser createReqresPayload) {
-        String endPoint = (String) Base.dataFromJsonFile.get("api.user");
+        String endPoint = (String) Base.dataFromJsonFile.get("api.users");
         return RestUtils.performPost(endPoint,createReqresPayload, new HashMap<>());
     }
 
     public Response createReqresUser(CreateReqresUser createReqresPayload) {
-        String endPoint = (String) Base.dataFromJsonFile.get("api.user");
+        String endPoint = (String) Base.dataFromJsonFile.get("api.users");
         return RestUtils.performPost(endPoint,createReqresPayload, new HashMap<>());
     }
 
@@ -82,5 +80,22 @@ public class ReqresUserAPIs {
         headers.put("Accept","application/json");
         headers.put("Content-Type","application/json");
         return RestUtils.performPostWithoutLogs(endPoint,loginPayload,headers);
+    }
+
+    public Response getUser(String endPointValue, Map<String,String>pathParams, Map<String,String>queryParams, Map<String,String>headers) {
+        String endPoint = (String) Base.dataFromJsonFile.get("api.users") + "/" + endPointValue;
+        return RestUtils.performGet(endPoint,pathParams,queryParams,headers);
+    }
+
+    public Response deleteUser(String endPointValue, Map<String,String>pathParams, Map<String,String>queryParams, Map<String,String>headers) {
+        String endPoint = (String) Base.dataFromJsonFile.get("api.users") + "/" + endPointValue;
+        return RestUtils.performDelete(endPoint,pathParams,queryParams,headers);
+    }
+
+    public static Response updateUser(String endPointValue, String token, Object payload) {
+        String endPoint = (String) Base.dataFromJsonFile.get("api.users") + "/" + endPointValue;
+        HashMap<String, String> headers = new HashMap<>();
+        headers.put("Authorization", "Bearer " + token);
+        return RestUtils.performPut(endPoint, payload, headers);
     }
 }

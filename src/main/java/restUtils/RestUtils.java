@@ -1,6 +1,5 @@
 package restUtils;
 
-import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.QueryableRequestSpecification;
@@ -11,17 +10,59 @@ import utils.RestReqFilter;
 
 import java.util.Map;
 
+import static io.restassured.RestAssured.given;
+
 public class RestUtils {
 
     public static RestReqFilter restReqFilter;
 
-    private static RequestSpecification getRequestSpecification(String endPoint, Object requestPayload, Map<String,String>headers) {
+    public static RequestSpecification getRequestSpecificationForPost(String endPoint, Object requestPayload, Map<String, String> headers) {
+        // Validate endpoint
+        if (endPoint == null) {
+            throw new IllegalArgumentException("Endpoint cannot be null");
+        }
 
-        return RestAssured.given()
+        // Ensure immutability of headers
+        headers = (headers != null) ? Map.copyOf(headers) : Map.of();
+
+        // Build RequestSpecification
+        RequestSpecification requestSpec = given()
                 .baseUri(endPoint)
                 .headers(headers)
-                .contentType(ContentType.JSON)
-                .body(requestPayload);
+                .contentType(ContentType.JSON);
+
+        // Add request payload if not null
+        if (requestPayload != null) {
+            requestSpec.body(requestPayload);
+        }
+
+        return requestSpec;
+    }
+
+    public static RequestSpecification getRequestSpecificationForGet(String endPoint,
+                                                                     Map<String, String> pathParams,
+                                                                     Map<String, String> queryParams,
+                                                                     Map<String, String> headers) {
+        try {
+            if (endPoint == null) {
+                throw new IllegalArgumentException("Endpoint cannot be null");
+            }
+            // Ensure immutability of maps
+            pathParams = pathParams != null ? Map.copyOf(pathParams) : Map.of();
+            queryParams = queryParams != null ? Map.copyOf(queryParams) : Map.of();
+            headers = headers != null ? Map.copyOf(headers) : Map.of();
+
+            return given()
+                    .baseUri(endPoint)
+                    .headers(headers)
+                    .contentType(ContentType.JSON)
+                    .pathParams(pathParams)
+                    .queryParams(queryParams);
+        } catch (Exception e) {
+            // Handle any exceptions
+            e.printStackTrace();
+            return null;
+        }
     }
 
     public static void printRequestLogInReport(RequestSpecification requestSpecification) {
@@ -51,8 +92,8 @@ public class RestUtils {
 
         restReqFilter = new RestReqFilter();
 
-        RequestSpecification requestSpecification = getRequestSpecification(endPoint, requestPayload, headers);
-        Response response =  requestSpecification.filter(restReqFilter).post();
+        RequestSpecification requestSpecification = getRequestSpecificationForPost(endPoint, requestPayload, headers);
+        Response response = requestSpecification.filter(restReqFilter).post();
         printRequestLogInReport(requestSpecification);
         printResponseLogInReport(response);
         printCurlLogInReport(restReqFilter.getCapturedCurl());
@@ -63,8 +104,8 @@ public class RestUtils {
 
         restReqFilter = new RestReqFilter();
 
-        RequestSpecification requestSpecification = getRequestSpecification(endPoint, requestPayload, headers);
-        Response response =  requestSpecification.filter(restReqFilter).post();
+        RequestSpecification requestSpecification = getRequestSpecificationForPost(endPoint, requestPayload, headers);
+        Response response = requestSpecification.filter(restReqFilter).post();
 
         printRequestLogInReport(requestSpecification);
         printResponseLogInReport(response);
@@ -77,8 +118,8 @@ public class RestUtils {
 
         restReqFilter = new RestReqFilter();
 
-        RequestSpecification requestSpecification = getRequestSpecification(endPoint, requestPayloadAsPojo, headers);
-        Response response =  requestSpecification.filter(restReqFilter).post();
+        RequestSpecification requestSpecification = getRequestSpecificationForPost(endPoint, requestPayloadAsPojo, headers);
+        Response response = requestSpecification.filter(restReqFilter).post();
 
         printRequestLogInReport(requestSpecification);
         printResponseLogInReport(response);
@@ -91,7 +132,7 @@ public class RestUtils {
 
         restReqFilter = new RestReqFilter();
 
-        return RestAssured.given().log().all()
+        return given().log().all()
             .baseUri(endPoint)
             .headers(headers).filter(restReqFilter)
             .body(requestPayload)
@@ -100,8 +141,50 @@ public class RestUtils {
     }
 
     public static Response performPostWithoutLogs(String endPoint, Object requestPayloadAsPojo, Map<String,String>headers) {
-        RequestSpecification requestSpecification = getRequestSpecification(endPoint, requestPayloadAsPojo, headers);
-        Response response =  requestSpecification.post();
+        RequestSpecification requestSpecification = getRequestSpecificationForPost(endPoint, requestPayloadAsPojo, headers);
+        Response response = requestSpecification.post();
+        return response;
+    }
+
+    public static Response performGet(String endPoint, Map<String,String>pathParams, Map<String,String>queryParams, Map<String,String>headers) {
+
+        restReqFilter = new RestReqFilter();
+
+        RequestSpecification requestSpecification = getRequestSpecificationForGet(endPoint, pathParams,queryParams, headers);
+        Response response = requestSpecification.filter(restReqFilter).get();
+
+        printRequestLogInReport(requestSpecification);
+        printResponseLogInReport(response);
+        printCurlLogInReport(restReqFilter.getCapturedCurl());
+
+        return response;
+    }
+
+    public static Response performDelete(String endPoint, Map<String,String>pathParams, Map<String,String>queryParams, Map<String,String>headers) {
+
+        restReqFilter = new RestReqFilter();
+
+        RequestSpecification requestSpecification = getRequestSpecificationForGet(endPoint, pathParams,queryParams, headers);
+        Response response = requestSpecification.filter(restReqFilter).delete();
+
+        printRequestLogInReport(requestSpecification);
+        printResponseLogInReport(response);
+        printCurlLogInReport(restReqFilter.getCapturedCurl());
+
+        return response;
+    }
+
+    public static Response performPut(String endPoint, Object requestPayloadAsPojo, Map<String,String>headers) {
+
+        restReqFilter = new RestReqFilter();
+
+        RequestSpecification requestSpecification = getRequestSpecificationForPost(endPoint, requestPayloadAsPojo, headers);
+        Response response = requestSpecification.filter(restReqFilter).put();
+
+        printRequestLogInReport(requestSpecification);
+        printResponseLogInReport(response);
+        printCurlLogInReport(restReqFilter.getCapturedCurl());
+
         return response;
     }
 }
