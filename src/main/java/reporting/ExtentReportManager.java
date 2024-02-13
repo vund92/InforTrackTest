@@ -36,7 +36,7 @@ public class ExtentReportManager {
         extentReports.setSystemInfo("Application", "Reqres.In API");
         extentReports.setSystemInfo("Operating System", System.getProperty("os.name"));
         extentReports.setSystemInfo("User Name", System.getProperty("user.name"));
-        extentReports.setSystemInfo("Environemnt",System.getProperty("env") == null ? "QA" : System.getProperty("env").toUpperCase());
+        extentReports.setSystemInfo("Environment",System.getProperty("env") == null ? "TEST" : System.getProperty("env").toUpperCase());
         extentReports.setSystemInfo("user","vund92");
 
 

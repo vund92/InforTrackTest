@@ -1,0 +1,1332 @@
+
+[INFO ] 2024-02-13 04:04:03.624 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "name": "FRNFgWqofBqi",
+    "job": "ktkWHPOVnFge",
+    "updatedAt": "2024-02-12T21:04:02.574Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request PUT https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"FRNFgWqofBqi","job":"ktkWHPOVnFge"}'
+
+[INFO ] 2024-02-13 04:04:03.631 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 04:04:04.470 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "name": "JCCOHtoaOSrb",
+    "job": "",
+    "updatedAt": "2024-02-12T21:04:03.468Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request PUT https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"JCCOHtoaOSrb","job":""}'
+
+[INFO ] 2024-02-13 04:04:04.471 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 04:04:05.013 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "updatedAt": "2024-02-12T21:04:04.018Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request PUT https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{}'
+
+[INFO ] 2024-02-13 04:04:05.013 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 04:05:29.882 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "name": "cGyERGzkCqXU",
+    "job": "wKbUELjdhXdS",
+    "updatedAt": "2024-02-12T21:05:28.882Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request PUT https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"cGyERGzkCqXU","job":"wKbUELjdhXdS"}'
+
+[INFO ] 2024-02-13 04:05:29.883 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 04:05:30.632 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "name": "CWYiBewyLmFL",
+    "job": "",
+    "updatedAt": "2024-02-12T21:05:29.642Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request PUT https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"CWYiBewyLmFL","job":""}'
+
+[INFO ] 2024-02-13 04:05:30.632 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 04:05:31.162 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "updatedAt": "2024-02-12T21:05:30.172Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request PUT https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{}'
+
+[INFO ] 2024-02-13 04:05:31.162 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 05:18:05.150 RestReqFilter:46 
+Response code: 201
+Response Body:
+{
+    "name": "Cedrick Walsh",
+    "job": "Consulting Specialist",
+    "id": "588",
+    "createdAt": "2024-02-12T22:18:04.004Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"Cedrick Walsh","job":"Consulting Specialist"}'
+
+[INFO ] 2024-02-13 05:18:05.153 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 05:18:05.788 RestReqFilter:46 
+Response code: 404
+Response Body:
+{
+    
+}
+You can use following cURL to reproduce the same request:
+curl --location --request GET https://reqres.in/api/users/588 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 05:18:05.789 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 05:38:43.715 RestReqFilter:46 
+Response code: 201
+Response Body:
+{
+    "name": "Dr. Magaly Lehner",
+    "job": "IT Specialist",
+    "id": "848",
+    "createdAt": "2024-02-12T22:38:42.553Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"Dr. Magaly Lehner","job":"IT Specialist"}'
+
+[INFO ] 2024-02-13 05:38:43.727 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 05:38:44.360 RestReqFilter:46 
+Response code: 404
+Response Body:
+{
+    
+}
+You can use following cURL to reproduce the same request:
+curl --location --request GET https://reqres.in/api/users/848 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 05:38:44.360 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 05:38:44.889 RestReqFilter:46 
+Response code: 204
+Response Body:
+
+You can use following cURL to reproduce the same request:
+curl --location --request DELETE https://reqres.in/api/users/848 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 05:38:44.889 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 05:38:45.426 RestReqFilter:46 
+Response code: 404
+Response Body:
+{
+    
+}
+You can use following cURL to reproduce the same request:
+curl --location --request GET https://reqres.in/api/users/848 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 05:38:45.427 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:15:52.429 RestReqFilter:46 
+Response code: 201
+Response Body:
+{
+    "name": "Kirby Heller",
+    "job": "Sales Representative",
+    "id": "394",
+    "createdAt": "2024-02-13T01:15:51.031Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"Kirby Heller","job":"Sales Representative"}'
+
+[INFO ] 2024-02-13 08:15:52.432 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:15:53.068 RestReqFilter:46 
+Response code: 404
+Response Body:
+{
+    
+}
+You can use following cURL to reproduce the same request:
+curl --location --request GET https://reqres.in/api/users/394 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:15:53.068 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:19:09.182 RestReqFilter:46 
+Response code: 201
+Response Body:
+{
+    "name": "Ingrid Rice",
+    "job": "Investor Legal Liaison",
+    "id": "516",
+    "createdAt": "2024-02-13T01:19:07.768Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"Ingrid Rice","job":"Investor Legal Liaison"}'
+
+[INFO ] 2024-02-13 08:19:09.184 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:19:09.819 RestReqFilter:46 
+Response code: 404
+Response Body:
+{
+    
+}
+You can use following cURL to reproduce the same request:
+curl --location --request GET https://reqres.in/api/users/516 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:19:09.820 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:19:10.350 RestReqFilter:46 
+Response code: 201
+Response Body:
+{
+    "name": "Miss Rona Kihn",
+    "job": "Customer Hospitality Agent",
+    "id": "483",
+    "createdAt": "2024-02-13T01:19:08.965Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"Miss Rona Kihn","job":"Customer Hospitality Agent"}'
+
+[INFO ] 2024-02-13 08:19:10.350 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:19:10.883 RestReqFilter:46 
+Response code: 404
+Response Body:
+{
+    
+}
+You can use following cURL to reproduce the same request:
+curl --location --request GET https://reqres.in/api/users/483 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:19:10.883 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:22:20.016 RestReqFilter:46 
+Response code: 201
+Response Body:
+{
+    "name": "XuTjnxWcgNzc",
+    "job": "rHIvDXjtvvNU",
+    "id": "269",
+    "createdAt": "2024-02-13T01:22:18.571Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"XuTjnxWcgNzc","job":"rHIvDXjtvvNU"}'
+
+[INFO ] 2024-02-13 08:22:20.018 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:22:20.828 RestReqFilter:46 
+Response code: 201
+Response Body:
+{
+    "name": "SBCHbVKYHyVh",
+    "job": "",
+    "id": "568",
+    "createdAt": "2024-02-13T01:22:19.426Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"SBCHbVKYHyVh","job":""}'
+
+[INFO ] 2024-02-13 08:22:20.828 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:22:21.356 RestReqFilter:46 
+Response code: 201
+Response Body:
+{
+    "id": "751",
+    "createdAt": "2024-02-13T01:22:19.965Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{}'
+
+[INFO ] 2024-02-13 08:22:21.357 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:23:06.828 RestReqFilter:46 
+Response code: 204
+Response Body:
+
+You can use following cURL to reproduce the same request:
+curl --location --request DELETE https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:23:06.830 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:23:07.438 RestReqFilter:46 
+Response code: 204
+Response Body:
+
+You can use following cURL to reproduce the same request:
+curl --location --request DELETE https://reqres.in/api/users/et \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:23:07.439 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:23:07.990 RestReqFilter:46 
+Response code: 204
+Response Body:
+
+You can use following cURL to reproduce the same request:
+curl --location --request DELETE https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:23:07.990 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:23:40.152 RestReqFilter:46 
+Response code: 201
+Response Body:
+{
+    "name": "Andreas Steuber",
+    "job": "Marketing Administrator",
+    "id": "856",
+    "createdAt": "2024-02-13T01:23:38.738Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"Andreas Steuber","job":"Marketing Administrator"}'
+
+[INFO ] 2024-02-13 08:23:40.155 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:23:40.804 RestReqFilter:46 
+Response code: 404
+Response Body:
+{
+    
+}
+You can use following cURL to reproduce the same request:
+curl --location --request GET https://reqres.in/api/users/856 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:23:40.804 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:23:41.352 RestReqFilter:46 
+Response code: 201
+Response Body:
+{
+    "name": "Mrs. Louie Abshire",
+    "job": "Banking Director",
+    "id": "235",
+    "createdAt": "2024-02-13T01:23:39.952Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"Mrs. Louie Abshire","job":"Banking Director"}'
+
+[INFO ] 2024-02-13 08:23:41.353 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:23:41.887 RestReqFilter:46 
+Response code: 404
+Response Body:
+{
+    
+}
+You can use following cURL to reproduce the same request:
+curl --location --request GET https://reqres.in/api/users/235 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:23:41.888 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:24:19.776 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "token": "QpwL5tke4Pnpja7X4"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/login \
+--header 'Accept:application/json'\
+--header 'Content-Type:application/json'\
+--data-raw '{"email":"eve.holt@reqres.in","password":"cityslicka"}'
+
+[INFO ] 2024-02-13 08:24:19.779 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:24:20.443 RestReqFilter:46 
+Response code: 400
+Response Body:
+{
+    "error": "Missing password"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/login \
+--header 'Accept:application/json'\
+--header 'Content-Type:application/json'\
+--data-raw '{"email":"peter@klaven","password":""}'
+
+[INFO ] 2024-02-13 08:24:20.444 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:26:36.088 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+You can use following cURL to reproduce the same request:
+curl --location --request GET https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:26:36.091 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:26:36.720 RestReqFilter:46 
+Response code: 404
+Response Body:
+{
+    
+}
+You can use following cURL to reproduce the same request:
+curl --location --request GET https://reqres.in/api/users/sT \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:26:36.721 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:26:36.843 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+You can use following cURL to reproduce the same request:
+curl --location --request GET https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:26:36.843 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:27:37.824 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "name": "etUxBBOjQZnh",
+    "job": "lEgVSTiUTBGd",
+    "updatedAt": "2024-02-13T01:27:36.394Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request PUT https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"etUxBBOjQZnh","job":"lEgVSTiUTBGd"}'
+
+[INFO ] 2024-02-13 08:27:37.826 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:27:38.652 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "name": "mixiWaYPCjgM",
+    "job": "",
+    "updatedAt": "2024-02-13T01:27:37.248Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request PUT https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"mixiWaYPCjgM","job":""}'
+
+[INFO ] 2024-02-13 08:27:38.652 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:27:39.182 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "updatedAt": "2024-02-13T01:27:37.778Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request PUT https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{}'
+
+[INFO ] 2024-02-13 08:27:39.183 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:29:15.977 RestReqFilter:46 
+Response code: 201
+Response Body:
+{
+    "name": "lIYjFuCjGDZs",
+    "job": "oOQPIiUulorx",
+    "id": "468",
+    "createdAt": "2024-02-13T01:29:14.561Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"lIYjFuCjGDZs","job":"oOQPIiUulorx"}'
+
+[INFO ] 2024-02-13 08:29:15.979 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:29:16.777 RestReqFilter:46 
+Response code: 201
+Response Body:
+{
+    "name": "EsMWuezonmZs",
+    "job": "",
+    "id": "136",
+    "createdAt": "2024-02-13T01:29:15.373Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"EsMWuezonmZs","job":""}'
+
+[INFO ] 2024-02-13 08:29:16.778 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:29:17.321 RestReqFilter:46 
+Response code: 201
+Response Body:
+{
+    "id": "374",
+    "createdAt": "2024-02-13T01:29:15.911Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{}'
+
+[INFO ] 2024-02-13 08:29:17.322 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:29:30.017 RestReqFilter:46 
+Response code: 204
+Response Body:
+
+You can use following cURL to reproduce the same request:
+curl --location --request DELETE https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:29:30.019 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:29:30.644 RestReqFilter:46 
+Response code: 204
+Response Body:
+
+You can use following cURL to reproduce the same request:
+curl --location --request DELETE https://reqres.in/api/users/sN \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:29:30.644 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:29:31.179 RestReqFilter:46 
+Response code: 204
+Response Body:
+
+You can use following cURL to reproduce the same request:
+curl --location --request DELETE https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:29:31.180 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:30:32.277 RestReqFilter:46 
+Response code: 201
+Response Body:
+{
+    "name": "Foster Stamm",
+    "job": "Product Analyst",
+    "id": "277",
+    "createdAt": "2024-02-13T01:30:30.856Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"Foster Stamm","job":"Product Analyst"}'
+
+[INFO ] 2024-02-13 08:30:32.279 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:30:32.911 RestReqFilter:46 
+Response code: 404
+Response Body:
+{
+    
+}
+You can use following cURL to reproduce the same request:
+curl --location --request GET https://reqres.in/api/users/277 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:30:32.911 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:30:33.445 RestReqFilter:46 
+Response code: 201
+Response Body:
+{
+    "name": "Troy Wolff",
+    "job": "Design Technician",
+    "id": "758",
+    "createdAt": "2024-02-13T01:30:32.039Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"Troy Wolff","job":"Design Technician"}'
+
+[INFO ] 2024-02-13 08:30:33.445 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:30:33.984 RestReqFilter:46 
+Response code: 404
+Response Body:
+{
+    
+}
+You can use following cURL to reproduce the same request:
+curl --location --request GET https://reqres.in/api/users/758 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:30:33.984 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:30:46.571 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "token": "QpwL5tke4Pnpja7X4"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/login \
+--header 'Accept:application/json'\
+--header 'Content-Type:application/json'\
+--data-raw '{"email":"eve.holt@reqres.in","password":"cityslicka"}'
+
+[INFO ] 2024-02-13 08:30:46.573 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:30:47.194 RestReqFilter:46 
+Response code: 400
+Response Body:
+{
+    "error": "Missing password"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/login \
+--header 'Accept:application/json'\
+--header 'Content-Type:application/json'\
+--data-raw '{"email":"peter@klaven","password":""}'
+
+[INFO ] 2024-02-13 08:30:47.195 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:31:31.252 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+You can use following cURL to reproduce the same request:
+curl --location --request GET https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:31:31.254 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:31:31.857 RestReqFilter:46 
+Response code: 404
+Response Body:
+{
+    
+}
+You can use following cURL to reproduce the same request:
+curl --location --request GET https://reqres.in/api/users/VA \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:31:31.857 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:31:31.980 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+You can use following cURL to reproduce the same request:
+curl --location --request GET https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:31:31.980 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:31:43.616 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "name": "WNiusrDYbEoT",
+    "job": "gUviIsTpJTIy",
+    "updatedAt": "2024-02-13T01:31:42.184Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request PUT https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"WNiusrDYbEoT","job":"gUviIsTpJTIy"}'
+
+[INFO ] 2024-02-13 08:31:43.618 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:31:44.411 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "name": "fELeVrYZGEbD",
+    "job": "",
+    "updatedAt": "2024-02-13T01:31:42.995Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request PUT https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"fELeVrYZGEbD","job":""}'
+
+[INFO ] 2024-02-13 08:31:44.411 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:31:44.915 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "updatedAt": "2024-02-13T01:31:43.515Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request PUT https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{}'
+
+[INFO ] 2024-02-13 08:31:44.915 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:37:22.300 RestReqFilter:46 
+Response code: 201
+Response Body:
+{
+    "name": "wsAMNdsUBfKj",
+    "job": "AYMCEElhjYGw",
+    "id": "384",
+    "createdAt": "2024-02-13T01:37:20.861Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"wsAMNdsUBfKj","job":"AYMCEElhjYGw"}'
+
+[INFO ] 2024-02-13 08:37:22.302 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:37:23.102 RestReqFilter:46 
+Response code: 201
+Response Body:
+{
+    "name": "yYcneCMDaNSz",
+    "job": "",
+    "id": "592",
+    "createdAt": "2024-02-13T01:37:21.680Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"yYcneCMDaNSz","job":""}'
+
+[INFO ] 2024-02-13 08:37:23.102 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:37:23.631 RestReqFilter:46 
+Response code: 201
+Response Body:
+{
+    "id": "564",
+    "createdAt": "2024-02-13T01:37:22.215Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{}'
+
+[INFO ] 2024-02-13 08:37:23.631 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:37:24.172 RestReqFilter:46 
+Response code: 204
+Response Body:
+
+You can use following cURL to reproduce the same request:
+curl --location --request DELETE https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:37:24.172 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:37:24.693 RestReqFilter:46 
+Response code: 204
+Response Body:
+
+You can use following cURL to reproduce the same request:
+curl --location --request DELETE https://reqres.in/api/users/nA \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:37:24.693 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:37:25.237 RestReqFilter:46 
+Response code: 204
+Response Body:
+
+You can use following cURL to reproduce the same request:
+curl --location --request DELETE https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:37:25.237 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:37:25.748 RestReqFilter:46 
+Response code: 201
+Response Body:
+{
+    "name": "Alexa Collier",
+    "job": "Regional Architect",
+    "id": "356",
+    "createdAt": "2024-02-13T01:37:24.337Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"Alexa Collier","job":"Regional Architect"}'
+
+[INFO ] 2024-02-13 08:37:25.749 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:37:26.268 RestReqFilter:46 
+Response code: 404
+Response Body:
+{
+    
+}
+You can use following cURL to reproduce the same request:
+curl --location --request GET https://reqres.in/api/users/356 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:37:26.268 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:37:26.809 RestReqFilter:46 
+Response code: 201
+Response Body:
+{
+    "name": "Lavonne Kessler",
+    "job": "Government Specialist",
+    "id": "74",
+    "createdAt": "2024-02-13T01:37:25.380Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"Lavonne Kessler","job":"Government Specialist"}'
+
+[INFO ] 2024-02-13 08:37:26.809 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:37:27.347 RestReqFilter:46 
+Response code: 404
+Response Body:
+{
+    
+}
+You can use following cURL to reproduce the same request:
+curl --location --request GET https://reqres.in/api/users/74 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:37:27.347 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:37:27.903 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "token": "QpwL5tke4Pnpja7X4"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/login \
+--header 'Accept:application/json'\
+--header 'Content-Type:application/json'\
+--data-raw '{"email":"eve.holt@reqres.in","password":"cityslicka"}'
+
+[INFO ] 2024-02-13 08:37:27.903 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:37:28.422 RestReqFilter:46 
+Response code: 400
+Response Body:
+{
+    "error": "Missing password"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request POST https://reqres.in/api/login \
+--header 'Accept:application/json'\
+--header 'Content-Type:application/json'\
+--data-raw '{"email":"peter@klaven","password":""}'
+
+[INFO ] 2024-02-13 08:37:28.423 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:37:28.958 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+You can use following cURL to reproduce the same request:
+curl --location --request GET https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:37:28.959 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:37:29.483 RestReqFilter:46 
+Response code: 404
+Response Body:
+{
+    
+}
+You can use following cURL to reproduce the same request:
+curl --location --request GET https://reqres.in/api/users/Rh \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:37:29.483 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:37:29.599 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+You can use following cURL to reproduce the same request:
+curl --location --request GET https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+
+
+[INFO ] 2024-02-13 08:37:29.599 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:37:30.164 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "name": "PipbyinSYnrT",
+    "job": "sggCcyfgyDSp",
+    "updatedAt": "2024-02-13T01:37:28.737Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request PUT https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"PipbyinSYnrT","job":"sggCcyfgyDSp"}'
+
+[INFO ] 2024-02-13 08:37:30.164 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:37:30.713 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "name": "icoXVxvDvkLs",
+    "job": "",
+    "updatedAt": "2024-02-13T01:37:29.290Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request PUT https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"icoXVxvDvkLs","job":""}'
+
+[INFO ] 2024-02-13 08:37:30.713 RestReqFilter:52 
+x-mm-correlation-id=null
+
+
+[INFO ] 2024-02-13 08:37:31.256 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "updatedAt": "2024-02-13T01:37:29.824Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request PUT https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{}'
+
+[INFO ] 2024-02-13 08:37:31.256 RestReqFilter:52 
+x-mm-correlation-id=null
+

@@ -128,7 +128,7 @@ public class RestUtils {
         return response;
     }
 
-    public static Response performPostDraft(String endPoint, String requestPayload, Map<String, String> headers) {
+    public static Response performPostWithRest(String endPoint, String requestPayload, Map<String, String> headers) {
 
         restReqFilter = new RestReqFilter();
 
