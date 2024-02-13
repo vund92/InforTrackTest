@@ -7,16 +7,41 @@
     </listeners>
 
     <test verbose="2" preserve-order="true"
-          name="E:/Terabox Backup/Automation Projects/InforTrackTest/src/test/java/reqres/LoginTests.java">
+          name="E:/Terabox Backup/Automation Projects/InforTrackTest/src/test/java/tests">
         <classes>
-            <class name="reqres.LoginTests">
+            <class name="tests.CreateAUserTests">
+                <methods>
+                    <include name="createAUserTests"/>
+                </methods>
+            </class>
+            <class name="tests.DeleteAUserTests">
+                <methods>
+                    <include name="deleteAnExistingUserTests"/>
+                    <include name="deleteNonExistingUserTests"/>
+                    <include name="deleteUserWithUnauthorizedPermission"/>
+                </methods>
+            </class>
+            <class name="tests.End2EndTests">
+                <methods>
+                    <include name="deleteUserAfterBeingCreated"/>
+                    <include name="updateUserAfterBeingCreated"/>
+                </methods>
+            </class>
+            <class name="tests.LoginTests">
                 <methods>
                     <include name="loginTests"/>
                 </methods>
             </class>
-            <class name="reqres.CreateAUserTests">
+            <class name="tests.ReadAUserTests">
                 <methods>
-                    <include name="createAUserTests"/>
+                    <include name="readAnExistingUserTests"/>
+                    <include name="readNonExistingUserTests"/>
+                    <include name="readUserWithUnauthorizedPermission"/>
+                </methods>
+            </class>
+            <class name="tests.UpdateAUserTests">
+                <methods>
+                    <include name="updateAUserTests"/>
                 </methods>
             </class>
         </classes>
