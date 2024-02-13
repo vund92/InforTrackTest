@@ -1,6 +1,6 @@
 package reqres.dataProviders;
 
-import reqres.Payloads;
+import reqres.services.Payloads;
 import reqres.pojos.CreateReqresUser;
 import reqres.pojos.ReqresUser;
 import utils.ExcelUtils;

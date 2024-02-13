@@ -1,4 +1,4 @@
-package reqres;
+package tests;
 
 import com.aventstack.extentreports.ExtentTest;
 import io.restassured.response.Response;
@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import reporting.Setup;
 import reqres.dataProviders.LoginDataProvider;
 import reqres.pojos.Login;
+import reqres.services.ReqresUserAPIs;
 import restUtils.AssertionUtils;
 import utils.JsonUtils;
 
@@ -24,7 +25,7 @@ public class LoginTests extends ReqresUserAPIs {
 
     @BeforeMethod(groups = "login_tests")
     static void getExpectedResults() throws IOException {
-        String env = System.getProperty("env") == null ? "qa" : System.getProperty("env");
+        String env = System.getProperty("env") == null ? "stage" : System.getProperty("env");
         successfulLoginResults = JsonUtils.getJsonDataAsMap("reqres/" + env + "/SuccessfulLoginResults.json");
         unSuccessfulLoginResults = JsonUtils.getJsonDataAsMap("reqres/" + env + "/unSuccessfulLoginResults.json");
     }

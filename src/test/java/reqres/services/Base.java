@@ -1,4 +1,4 @@
-package reqres;
+package reqres.services;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import reqres.pojos.ReqresUserResponse;
@@ -8,7 +8,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Map;
 
-import static reqres.ReqresUserAPIs.getToken;
+import static reqres.services.ReqresUserAPIs.getToken;
 
 public class Base {
 
@@ -18,7 +18,7 @@ public class Base {
 
     public static Map<String,Object> dataFromJsonFile;
 
-    public static String env = System.getProperty("env") == null ? "qa" : System.getProperty("env");
+    public static String env = System.getProperty("env") == null ? "stage" : System.getProperty("env");
 
     static {
         try {

@@ -1,0 +1,3002 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Test ExecutionReport</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Test API Automation Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Feb 13, 2024 08:37:21 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Case: Create User Successful - Valid Values to Required Fields</p>
+            <p class="text-sm">
+              <span>8:37:21 AM</span> / <span>00:00:00:830</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test Case: Create User Successful - Valid Values to Required Fields</h5>
+<span class='badge badge-success'>02.13.2024 8:37:21 AM</span>
+<span class='badge badge-danger'>02.13.2024 8:37:22 AM</span>
+<span class='badge badge-default'>00:00:00:830</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:22 AM</td>
+        <td>
+          <span class='badge white-text teal'>Endpoint is https://reqres.in/api/users</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:22 AM</td>
+        <td>
+          <span class='badge white-text teal'>Method is POST</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:22 AM</td>
+        <td>
+          <span class='badge white-text teal'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:22 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Authorization</td><td>Bearer QpwL5tke4Pnpja7X4</td></tr><tr><td>Accept</td><td>*/*</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:22 AM</td>
+        <td>
+          <span class='badge white-text teal'>Request body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:22 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-0'></div>
+ <script>
+  function jsonTreeCreate0() { 
+   document.getElementById('code-block-json-0').innerHTML = JSONTree.create({"name":"wsAMNdsUBfKj","job":"AYMCEElhjYGw"}); 
+  }
+  jsonTreeCreate0();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:22 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response status is 201</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:22 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:22 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Tue, 13 Feb 2024 01:37:20 GMT</td></tr><tr><td>Content-Type</td><td>application/json; charset=utf-8</td></tr><tr><td>Content-Length</td><td>94</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Report-To</td><td>{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1707788240&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=zaA3bS2Tgq7ZNewvcjk2RR2KEVvntZh9A0DjI%2FmMxRc%3D"}]}</td></tr><tr><td>Reporting-Endpoints</td><td>heroku-nel=https://nel.heroku.com/reports?ts=1707788240&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=zaA3bS2Tgq7ZNewvcjk2RR2KEVvntZh9A0DjI%2FmMxRc%3D</td></tr><tr><td>Nel</td><td>{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}</td></tr><tr><td>X-Powered-By</td><td>Express</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Etag</td><td>W/"5e-jPR3KOO8aIrjfdg6GN5HB/abyz8"</td></tr><tr><td>Via</td><td>1.1 vegur</td></tr><tr><td>CF-Cache-Status</td><td>DYNAMIC</td></tr><tr><td>Server</td><td>cloudflare</td></tr><tr><td>CF-RAY</td><td>854958777b2e1113-HKG</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:22 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:22 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-1'></div>
+ <script>
+  function jsonTreeCreate1() { 
+   document.getElementById('code-block-json-1').innerHTML = JSONTree.create({
+    "name": "wsAMNdsUBfKj",
+    "job": "AYMCEElhjYGw",
+    "id": "384",
+    "createdAt": "2024-02-13T01:37:20.861Z"
+}); 
+  }
+  jsonTreeCreate1();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:22 AM</td>
+        <td>
+          <span class='badge white-text teal'>Captured Curl is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:22 AM</td>
+        <td>
+          <pre>curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"wsAMNdsUBfKj","job":"AYMCEElhjYGw"}'</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:37:22 AM</td>
+        <td>
+          <span class='badge white-text green'>All assertions are passed. 😊😊😊😊😊</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:22 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>JSON_PATH</td><td>EXPECTED_VALUE</td><td>ACTUAL_VALUE</td><td>RESULT</td></tr><tr><td>name</td><td>wsAMNdsUBfKj</td><td>wsAMNdsUBfKj</td><td>MATCHED ✅</td></tr><tr><td>job</td><td>AYMCEElhjYGw</td><td>AYMCEElhjYGw</td><td>MATCHED ✅</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:37:22 AM</td>
+        <td>
+          Test passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Case: Create User Unsuccessful - Empty Required Field</p>
+            <p class="text-sm">
+              <span>8:37:22 AM</span> / <span>00:00:00:530</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Test Case: Create User Unsuccessful - Empty Required Field</h5>
+<span class='badge badge-success'>02.13.2024 8:37:22 AM</span>
+<span class='badge badge-danger'>02.13.2024 8:37:23 AM</span>
+<span class='badge badge-default'>00:00:00:530</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <span class='badge white-text teal'>Endpoint is https://reqres.in/api/users</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <span class='badge white-text teal'>Method is POST</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <span class='badge white-text teal'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Authorization</td><td>Bearer QpwL5tke4Pnpja7X4</td></tr><tr><td>Accept</td><td>*/*</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <span class='badge white-text teal'>Request body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-2'></div>
+ <script>
+  function jsonTreeCreate2() { 
+   document.getElementById('code-block-json-2').innerHTML = JSONTree.create({"name":"yYcneCMDaNSz","job":""}); 
+  }
+  jsonTreeCreate2();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response status is 201</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Tue, 13 Feb 2024 01:37:21 GMT</td></tr><tr><td>Content-Type</td><td>application/json; charset=utf-8</td></tr><tr><td>Content-Length</td><td>82</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Report-To</td><td>{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1707788241&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=crdUr8zHtPMet0QLpnGZEOEE0Rp6T%2BmsjnRX7MVwqTw%3D"}]}</td></tr><tr><td>Reporting-Endpoints</td><td>heroku-nel=https://nel.heroku.com/reports?ts=1707788241&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=crdUr8zHtPMet0QLpnGZEOEE0Rp6T%2BmsjnRX7MVwqTw%3D</td></tr><tr><td>Nel</td><td>{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}</td></tr><tr><td>X-Powered-By</td><td>Express</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Etag</td><td>W/"52-zTO+ZDKsISTq7iMd3HZHwxtrtCM"</td></tr><tr><td>Via</td><td>1.1 vegur</td></tr><tr><td>CF-Cache-Status</td><td>DYNAMIC</td></tr><tr><td>Server</td><td>cloudflare</td></tr><tr><td>CF-RAY</td><td>8549587c9d8e85e7-HKG</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-3'></div>
+ <script>
+  function jsonTreeCreate3() { 
+   document.getElementById('code-block-json-3').innerHTML = JSONTree.create({
+    "name": "yYcneCMDaNSz",
+    "job": "",
+    "id": "592",
+    "createdAt": "2024-02-13T01:37:21.680Z"
+}); 
+  }
+  jsonTreeCreate3();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <span class='badge white-text teal'>Captured Curl is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <pre>curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"yYcneCMDaNSz","job":""}'</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <span class='badge white-text red'>expected [400] but found [201]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <details>
+    <summary>Click Here To See Exception Logs</summary>
+    [org.testng.Assert.fail(Assert.java:110)<br> org.testng.Assert.failNotEquals(Assert.java:1413)<br> org.testng.Assert.assertEqualsImpl(Assert.java:149)<br> org.testng.Assert.assertEquals(Assert.java:131)<br> org.testng.Assert.assertEquals(Assert.java:1240)<br> org.testng.Assert.assertEquals(Assert.java:1274)<br> tests.CreateAUserTests.createAUserTests(CreateAUserTests.java:53)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1596)<br> org.testng.TestRunner.privateRun(TestRunner.java:829)<br> org.testng.TestRunner.run(TestRunner.java:602)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:437)<br> org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)<br> org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)<br> org.testng.SuiteRunner.run(SuiteRunner.java:330)<br> org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br> org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br> org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)<br> org.testng.TestNG.runSuitesLocally(TestNG.java:1176)<br> org.testng.TestNG.runSuites(TestNG.java:1099)<br> org.testng.TestNG.run(TestNG.java:1067)<br> org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)<br> org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)<br> org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)<br> org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)<br> org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)<br> org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)<br> org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)]
+</details>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Case: Create User Unsuccessful - Do not send Required Field</p>
+            <p class="text-sm">
+              <span>8:37:23 AM</span> / <span>00:00:00:524</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Test Case: Create User Unsuccessful - Do not send Required Field</h5>
+<span class='badge badge-success'>02.13.2024 8:37:23 AM</span>
+<span class='badge badge-danger'>02.13.2024 8:37:23 AM</span>
+<span class='badge badge-default'>00:00:00:524</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <span class='badge white-text teal'>Endpoint is https://reqres.in/api/users</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <span class='badge white-text teal'>Method is POST</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <span class='badge white-text teal'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Authorization</td><td>Bearer QpwL5tke4Pnpja7X4</td></tr><tr><td>Accept</td><td>*/*</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <span class='badge white-text teal'>Request body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-4'></div>
+ <script>
+  function jsonTreeCreate4() { 
+   document.getElementById('code-block-json-4').innerHTML = JSONTree.create({}); 
+  }
+  jsonTreeCreate4();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response status is 201</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Tue, 13 Feb 2024 01:37:22 GMT</td></tr><tr><td>Content-Type</td><td>application/json; charset=utf-8</td></tr><tr><td>Content-Length</td><td>51</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Report-To</td><td>{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1707788242&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=LQTjTI0qIq7PSRubFGL7ntbk7x3lzLlDcDcpFuAwg4A%3D"}]}</td></tr><tr><td>Reporting-Endpoints</td><td>heroku-nel=https://nel.heroku.com/reports?ts=1707788242&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=LQTjTI0qIq7PSRubFGL7ntbk7x3lzLlDcDcpFuAwg4A%3D</td></tr><tr><td>Nel</td><td>{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}</td></tr><tr><td>X-Powered-By</td><td>Express</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Etag</td><td>W/"33-k1srlssRlS/ODrpTFSg5VrjwATI"</td></tr><tr><td>Via</td><td>1.1 vegur</td></tr><tr><td>CF-Cache-Status</td><td>DYNAMIC</td></tr><tr><td>Server</td><td>cloudflare</td></tr><tr><td>CF-RAY</td><td>8549587fea1a5dd3-HKG</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-5'></div>
+ <script>
+  function jsonTreeCreate5() { 
+   document.getElementById('code-block-json-5').innerHTML = JSONTree.create({
+    "id": "564",
+    "createdAt": "2024-02-13T01:37:22.215Z"
+}); 
+  }
+  jsonTreeCreate5();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <span class='badge white-text teal'>Captured Curl is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <pre>curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{}'</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <span class='badge white-text red'>expected [400] but found [201]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:37:23 AM</td>
+        <td>
+          <details>
+    <summary>Click Here To See Exception Logs</summary>
+    [org.testng.Assert.fail(Assert.java:110)<br> org.testng.Assert.failNotEquals(Assert.java:1413)<br> org.testng.Assert.assertEqualsImpl(Assert.java:149)<br> org.testng.Assert.assertEquals(Assert.java:131)<br> org.testng.Assert.assertEquals(Assert.java:1240)<br> org.testng.Assert.assertEquals(Assert.java:1274)<br> tests.CreateAUserTests.createAUserTests(CreateAUserTests.java:53)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1596)<br> org.testng.TestRunner.privateRun(TestRunner.java:829)<br> org.testng.TestRunner.run(TestRunner.java:602)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:437)<br> org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)<br> org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)<br> org.testng.SuiteRunner.run(SuiteRunner.java:330)<br> org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br> org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br> org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)<br> org.testng.TestNG.runSuitesLocally(TestNG.java:1176)<br> org.testng.TestNG.runSuites(TestNG.java:1099)<br> org.testng.TestNG.run(TestNG.java:1067)<br> org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)<br> org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)<br> org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)<br> org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)<br> org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)<br> org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)<br> org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)]
+</details>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Case: deleteAnExistingUserTests</p>
+            <p class="text-sm">
+              <span>8:37:23 AM</span> / <span>00:00:00:543</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test Case: deleteAnExistingUserTests</h5>
+<span class='badge badge-success'>02.13.2024 8:37:23 AM</span>
+<span class='badge badge-danger'>02.13.2024 8:37:24 AM</span>
+<span class='badge badge-default'>00:00:00:543</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <span class='badge white-text teal'>Endpoint is https://reqres.in/api/users/2</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <span class='badge white-text teal'>Method is DELETE</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <span class='badge white-text teal'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Authorization</td><td>Bearer QpwL5tke4Pnpja7X4</td></tr><tr><td>Accept</td><td>*/*</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <span class='badge white-text teal'>Request body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response status is 204</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Tue, 13 Feb 2024 01:37:22 GMT</td></tr><tr><td>Content-Length</td><td>0</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Report-To</td><td>{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1707788242&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=LQTjTI0qIq7PSRubFGL7ntbk7x3lzLlDcDcpFuAwg4A%3D"}]}</td></tr><tr><td>Reporting-Endpoints</td><td>heroku-nel=https://nel.heroku.com/reports?ts=1707788242&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=LQTjTI0qIq7PSRubFGL7ntbk7x3lzLlDcDcpFuAwg4A%3D</td></tr><tr><td>Nel</td><td>{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}</td></tr><tr><td>X-Powered-By</td><td>Express</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Etag</td><td>W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"</td></tr><tr><td>Via</td><td>1.1 vegur</td></tr><tr><td>CF-Cache-Status</td><td>DYNAMIC</td></tr><tr><td>Server</td><td>cloudflare</td></tr><tr><td>CF-RAY</td><td>854958834ecfb460-HKG</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-7'></div>
+ <script>
+  function jsonTreeCreate7() { 
+   document.getElementById('code-block-json-7').innerHTML = JSONTree.create(); 
+  }
+  jsonTreeCreate7();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <span class='badge white-text teal'>Captured Curl is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <pre>curl --location --request DELETE https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          Test passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Case: deleteNonExistingUserTests</p>
+            <p class="text-sm">
+              <span>8:37:24 AM</span> / <span>00:00:00:508</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Test Case: deleteNonExistingUserTests</h5>
+<span class='badge badge-success'>02.13.2024 8:37:24 AM</span>
+<span class='badge badge-danger'>02.13.2024 8:37:24 AM</span>
+<span class='badge badge-default'>00:00:00:508</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <span class='badge white-text teal'>Endpoint is https://reqres.in/api/users/nA</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <span class='badge white-text teal'>Method is DELETE</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <span class='badge white-text teal'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Authorization</td><td>Bearer QpwL5tke4Pnpja7X4</td></tr><tr><td>Accept</td><td>*/*</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <span class='badge white-text teal'>Request body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response status is 204</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Tue, 13 Feb 2024 01:37:23 GMT</td></tr><tr><td>Content-Length</td><td>0</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Report-To</td><td>{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1707788243&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=%2FaqEQd7nmFKPyLG13CceqzsxwnegxgkRu7NF49mMWkI%3D"}]}</td></tr><tr><td>Reporting-Endpoints</td><td>heroku-nel=https://nel.heroku.com/reports?ts=1707788243&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=%2FaqEQd7nmFKPyLG13CceqzsxwnegxgkRu7NF49mMWkI%3D</td></tr><tr><td>Nel</td><td>{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}</td></tr><tr><td>X-Powered-By</td><td>Express</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Etag</td><td>W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"</td></tr><tr><td>Via</td><td>1.1 vegur</td></tr><tr><td>CF-Cache-Status</td><td>DYNAMIC</td></tr><tr><td>Server</td><td>cloudflare</td></tr><tr><td>CF-RAY</td><td>85495886aaa58529-HKG</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-9'></div>
+ <script>
+  function jsonTreeCreate9() { 
+   document.getElementById('code-block-json-9').innerHTML = JSONTree.create(); 
+  }
+  jsonTreeCreate9();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <span class='badge white-text teal'>Captured Curl is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <pre>curl --location --request DELETE https://reqres.in/api/users/nA \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <span class='badge white-text red'>expected [404] but found [204]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:37:24 AM</td>
+        <td>
+          <details>
+    <summary>Click Here To See Exception Logs</summary>
+    [org.testng.Assert.fail(Assert.java:110)<br> org.testng.Assert.failNotEquals(Assert.java:1413)<br> org.testng.Assert.assertEqualsImpl(Assert.java:149)<br> org.testng.Assert.assertEquals(Assert.java:131)<br> org.testng.Assert.assertEquals(Assert.java:1240)<br> org.testng.Assert.assertEquals(Assert.java:1274)<br> tests.DeleteAUserTests.deleteNonExistingUserTests(DeleteAUserTests.java:57)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1596)<br> org.testng.TestRunner.privateRun(TestRunner.java:829)<br> org.testng.TestRunner.run(TestRunner.java:602)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:437)<br> org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)<br> org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)<br> org.testng.SuiteRunner.run(SuiteRunner.java:330)<br> org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br> org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br> org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)<br> org.testng.TestNG.runSuitesLocally(TestNG.java:1176)<br> org.testng.TestNG.runSuites(TestNG.java:1099)<br> org.testng.TestNG.run(TestNG.java:1067)<br> org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)<br> org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)<br> org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)<br> org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)<br> org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)<br> org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)<br> org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)]
+</details>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Case: deleteUserWithUnauthorizedPermission</p>
+            <p class="text-sm">
+              <span>8:37:24 AM</span> / <span>00:00:00:541</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Test Case: deleteUserWithUnauthorizedPermission</h5>
+<span class='badge badge-success'>02.13.2024 8:37:24 AM</span>
+<span class='badge badge-danger'>02.13.2024 8:37:25 AM</span>
+<span class='badge badge-default'>00:00:00:541</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <span class='badge white-text teal'>Endpoint is https://reqres.in/api/users/2</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <span class='badge white-text teal'>Method is DELETE</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <span class='badge white-text teal'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Authorization</td><td>Bearer QpwL5tke4Pnpja7X4Unauthorized</td></tr><tr><td>Accept</td><td>*/*</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <span class='badge white-text teal'>Request body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response status is 204</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Tue, 13 Feb 2024 01:37:23 GMT</td></tr><tr><td>Content-Length</td><td>0</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Report-To</td><td>{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1707788243&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=%2FaqEQd7nmFKPyLG13CceqzsxwnegxgkRu7NF49mMWkI%3D"}]}</td></tr><tr><td>Reporting-Endpoints</td><td>heroku-nel=https://nel.heroku.com/reports?ts=1707788243&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=%2FaqEQd7nmFKPyLG13CceqzsxwnegxgkRu7NF49mMWkI%3D</td></tr><tr><td>Nel</td><td>{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}</td></tr><tr><td>X-Powered-By</td><td>Express</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Etag</td><td>W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"</td></tr><tr><td>Via</td><td>1.1 vegur</td></tr><tr><td>CF-Cache-Status</td><td>DYNAMIC</td></tr><tr><td>Server</td><td>cloudflare</td></tr><tr><td>CF-RAY</td><td>85495889c9c10445-HKG</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-11'></div>
+ <script>
+  function jsonTreeCreate11() { 
+   document.getElementById('code-block-json-11').innerHTML = JSONTree.create(); 
+  }
+  jsonTreeCreate11();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <span class='badge white-text teal'>Captured Curl is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <pre>curl --location --request DELETE https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <span class='badge white-text red'>expected [401] but found [204]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <details>
+    <summary>Click Here To See Exception Logs</summary>
+    [org.testng.Assert.fail(Assert.java:110)<br> org.testng.Assert.failNotEquals(Assert.java:1413)<br> org.testng.Assert.assertEqualsImpl(Assert.java:149)<br> org.testng.Assert.assertEquals(Assert.java:131)<br> org.testng.Assert.assertEquals(Assert.java:1240)<br> org.testng.Assert.assertEquals(Assert.java:1274)<br> tests.DeleteAUserTests.deleteUserWithUnauthorizedPermission(DeleteAUserTests.java:73)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1596)<br> org.testng.TestRunner.privateRun(TestRunner.java:829)<br> org.testng.TestRunner.run(TestRunner.java:602)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:437)<br> org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)<br> org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)<br> org.testng.SuiteRunner.run(SuiteRunner.java:330)<br> org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br> org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br> org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)<br> org.testng.TestNG.runSuitesLocally(TestNG.java:1176)<br> org.testng.TestNG.runSuites(TestNG.java:1099)<br> org.testng.TestNG.run(TestNG.java:1067)<br> org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)<br> org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)<br> org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)<br> org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)<br> org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)<br> org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)<br> org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)]
+</details>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Case: deleteUserAfterBeingCreated</p>
+            <p class="text-sm">
+              <span>8:37:25 AM</span> / <span>00:00:01:031</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Test Case: deleteUserAfterBeingCreated</h5>
+<span class='badge badge-success'>02.13.2024 8:37:25 AM</span>
+<span class='badge badge-danger'>02.13.2024 8:37:26 AM</span>
+<span class='badge badge-default'>00:00:01:031</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <span class='badge white-text teal'>Endpoint is https://reqres.in/api/users</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <span class='badge white-text teal'>Method is POST</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <span class='badge white-text teal'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Authorization</td><td>Bearer QpwL5tke4Pnpja7X4</td></tr><tr><td>Accept</td><td>*/*</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <span class='badge white-text teal'>Request body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-12'></div>
+ <script>
+  function jsonTreeCreate12() { 
+   document.getElementById('code-block-json-12').innerHTML = JSONTree.create({"name":"Alexa Collier","job":"Regional Architect"}); 
+  }
+  jsonTreeCreate12();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response status is 201</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Tue, 13 Feb 2024 01:37:24 GMT</td></tr><tr><td>Content-Type</td><td>application/json; charset=utf-8</td></tr><tr><td>Content-Length</td><td>101</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Report-To</td><td>{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1707788244&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=HYw9cWTqOG1PfSUChX9fWWsnqBAvcx%2F8Xjo535TnVF8%3D"}]}</td></tr><tr><td>Reporting-Endpoints</td><td>heroku-nel=https://nel.heroku.com/reports?ts=1707788244&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=HYw9cWTqOG1PfSUChX9fWWsnqBAvcx%2F8Xjo535TnVF8%3D</td></tr><tr><td>Nel</td><td>{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}</td></tr><tr><td>X-Powered-By</td><td>Express</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Etag</td><td>W/"65-+IpexkFCCGyV4J3dp6YT5QvTzfE"</td></tr><tr><td>Via</td><td>1.1 vegur</td></tr><tr><td>CF-Cache-Status</td><td>DYNAMIC</td></tr><tr><td>Server</td><td>cloudflare</td></tr><tr><td>CF-RAY</td><td>8549588d49bd85b8-HKG</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-13'></div>
+ <script>
+  function jsonTreeCreate13() { 
+   document.getElementById('code-block-json-13').innerHTML = JSONTree.create({
+    "name": "Alexa Collier",
+    "job": "Regional Architect",
+    "id": "356",
+    "createdAt": "2024-02-13T01:37:24.337Z"
+}); 
+  }
+  jsonTreeCreate13();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <span class='badge white-text teal'>Captured Curl is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:25 AM</td>
+        <td>
+          <pre>curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"Alexa Collier","job":"Regional Architect"}'</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <span class='badge white-text teal'>Endpoint is https://reqres.in/api/users/356</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <span class='badge white-text teal'>Method is GET</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <span class='badge white-text teal'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Authorization</td><td>Bearer QpwL5tke4Pnpja7X4Unauthorized</td></tr><tr><td>Accept</td><td>*/*</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <span class='badge white-text teal'>Request body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response status is 404</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Tue, 13 Feb 2024 01:37:24 GMT</td></tr><tr><td>Content-Type</td><td>application/json; charset=utf-8</td></tr><tr><td>Content-Length</td><td>2</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Report-To</td><td>{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1707788244&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=HYw9cWTqOG1PfSUChX9fWWsnqBAvcx%2F8Xjo535TnVF8%3D"}]}</td></tr><tr><td>Reporting-Endpoints</td><td>heroku-nel=https://nel.heroku.com/reports?ts=1707788244&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=HYw9cWTqOG1PfSUChX9fWWsnqBAvcx%2F8Xjo535TnVF8%3D</td></tr><tr><td>Nel</td><td>{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}</td></tr><tr><td>X-Powered-By</td><td>Express</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Etag</td><td>W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"</td></tr><tr><td>Via</td><td>1.1 vegur</td></tr><tr><td>CF-Cache-Status</td><td>BYPASS</td></tr><tr><td>Vary</td><td>Accept-Encoding</td></tr><tr><td>Server</td><td>cloudflare</td></tr><tr><td>CF-RAY</td><td>854958906bfe5e0a-HKG</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-15'></div>
+ <script>
+  function jsonTreeCreate15() { 
+   document.getElementById('code-block-json-15').innerHTML = JSONTree.create({
+    
+}); 
+  }
+  jsonTreeCreate15();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <span class='badge white-text teal'>Captured Curl is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <pre>curl --location --request GET https://reqres.in/api/users/356 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <span class='badge white-text red'>expected [200] but found [404]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <details>
+    <summary>Click Here To See Exception Logs</summary>
+    [org.testng.Assert.fail(Assert.java:110)<br> org.testng.Assert.failNotEquals(Assert.java:1413)<br> org.testng.Assert.assertEqualsImpl(Assert.java:149)<br> org.testng.Assert.assertEquals(Assert.java:131)<br> org.testng.Assert.assertEquals(Assert.java:1240)<br> org.testng.Assert.assertEquals(Assert.java:1274)<br> tests.End2EndTests.deleteUserAfterBeingCreated(End2EndTests.java:38)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1596)<br> org.testng.TestRunner.privateRun(TestRunner.java:829)<br> org.testng.TestRunner.run(TestRunner.java:602)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:437)<br> org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)<br> org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)<br> org.testng.SuiteRunner.run(SuiteRunner.java:330)<br> org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br> org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br> org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)<br> org.testng.TestNG.runSuitesLocally(TestNG.java:1176)<br> org.testng.TestNG.runSuites(TestNG.java:1099)<br> org.testng.TestNG.run(TestNG.java:1067)<br> org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)<br> org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)<br> org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)<br> org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)<br> org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)<br> org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)<br> org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)]
+</details>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Case: updateUserAfterBeingCreated</p>
+            <p class="text-sm">
+              <span>8:37:26 AM</span> / <span>00:00:01:076</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Test Case: updateUserAfterBeingCreated</h5>
+<span class='badge badge-success'>02.13.2024 8:37:26 AM</span>
+<span class='badge badge-danger'>02.13.2024 8:37:27 AM</span>
+<span class='badge badge-default'>00:00:01:076</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <span class='badge white-text teal'>Endpoint is https://reqres.in/api/users</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <span class='badge white-text teal'>Method is POST</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <span class='badge white-text teal'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Authorization</td><td>Bearer QpwL5tke4Pnpja7X4</td></tr><tr><td>Accept</td><td>*/*</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <span class='badge white-text teal'>Request body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-16'></div>
+ <script>
+  function jsonTreeCreate16() { 
+   document.getElementById('code-block-json-16').innerHTML = JSONTree.create({"name":"Lavonne Kessler","job":"Government Specialist"}); 
+  }
+  jsonTreeCreate16();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response status is 201</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Tue, 13 Feb 2024 01:37:25 GMT</td></tr><tr><td>Content-Type</td><td>application/json; charset=utf-8</td></tr><tr><td>Content-Length</td><td>105</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Report-To</td><td>{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1707788245&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=OuEpRTp2PfvnE7CL29Z6YmYVe%2BgMmYplv1G9X0Ex6Ig%3D"}]}</td></tr><tr><td>Reporting-Endpoints</td><td>heroku-nel=https://nel.heroku.com/reports?ts=1707788245&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=OuEpRTp2PfvnE7CL29Z6YmYVe%2BgMmYplv1G9X0Ex6Ig%3D</td></tr><tr><td>Nel</td><td>{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}</td></tr><tr><td>X-Powered-By</td><td>Express</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Etag</td><td>W/"69-pibDJk2LwMrdeerqDzY0HFr7158"</td></tr><tr><td>Via</td><td>1.1 vegur</td></tr><tr><td>CF-Cache-Status</td><td>DYNAMIC</td></tr><tr><td>Server</td><td>cloudflare</td></tr><tr><td>CF-RAY</td><td>85495893ba5524f5-HKG</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-17'></div>
+ <script>
+  function jsonTreeCreate17() { 
+   document.getElementById('code-block-json-17').innerHTML = JSONTree.create({
+    "name": "Lavonne Kessler",
+    "job": "Government Specialist",
+    "id": "74",
+    "createdAt": "2024-02-13T01:37:25.380Z"
+}); 
+  }
+  jsonTreeCreate17();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <span class='badge white-text teal'>Captured Curl is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:26 AM</td>
+        <td>
+          <pre>curl --location --request POST https://reqres.in/api/users \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"Lavonne Kessler","job":"Government Specialist"}'</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <span class='badge white-text teal'>Endpoint is https://reqres.in/api/users/74</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <span class='badge white-text teal'>Method is GET</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <span class='badge white-text teal'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Authorization</td><td>Bearer QpwL5tke4Pnpja7X4Unauthorized</td></tr><tr><td>Accept</td><td>*/*</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <span class='badge white-text teal'>Request body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response status is 404</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Tue, 13 Feb 2024 01:37:26 GMT</td></tr><tr><td>Content-Type</td><td>application/json; charset=utf-8</td></tr><tr><td>Content-Length</td><td>2</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Report-To</td><td>{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1707788245&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=OuEpRTp2PfvnE7CL29Z6YmYVe%2BgMmYplv1G9X0Ex6Ig%3D"}]}</td></tr><tr><td>Reporting-Endpoints</td><td>heroku-nel=https://nel.heroku.com/reports?ts=1707788245&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=OuEpRTp2PfvnE7CL29Z6YmYVe%2BgMmYplv1G9X0Ex6Ig%3D</td></tr><tr><td>Nel</td><td>{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}</td></tr><tr><td>X-Powered-By</td><td>Express</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Etag</td><td>W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"</td></tr><tr><td>Via</td><td>1.1 vegur</td></tr><tr><td>CF-Cache-Status</td><td>BYPASS</td></tr><tr><td>Vary</td><td>Accept-Encoding</td></tr><tr><td>Server</td><td>cloudflare</td></tr><tr><td>CF-RAY</td><td>854958970be80449-HKG</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-19'></div>
+ <script>
+  function jsonTreeCreate19() { 
+   document.getElementById('code-block-json-19').innerHTML = JSONTree.create({
+    
+}); 
+  }
+  jsonTreeCreate19();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <span class='badge white-text teal'>Captured Curl is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <pre>curl --location --request GET https://reqres.in/api/users/74 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <span class='badge white-text red'>expected [200] but found [404]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <details>
+    <summary>Click Here To See Exception Logs</summary>
+    [org.testng.Assert.fail(Assert.java:110)<br> org.testng.Assert.failNotEquals(Assert.java:1413)<br> org.testng.Assert.assertEqualsImpl(Assert.java:149)<br> org.testng.Assert.assertEquals(Assert.java:131)<br> org.testng.Assert.assertEquals(Assert.java:1240)<br> org.testng.Assert.assertEquals(Assert.java:1274)<br> tests.End2EndTests.updateUserAfterBeingCreated(End2EndTests.java:63)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1596)<br> org.testng.TestRunner.privateRun(TestRunner.java:829)<br> org.testng.TestRunner.run(TestRunner.java:602)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:437)<br> org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)<br> org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)<br> org.testng.SuiteRunner.run(SuiteRunner.java:330)<br> org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br> org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br> org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)<br> org.testng.TestNG.runSuitesLocally(TestNG.java:1176)<br> org.testng.TestNG.runSuites(TestNG.java:1099)<br> org.testng.TestNG.run(TestNG.java:1067)<br> org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)<br> org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)<br> org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)<br> org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)<br> org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)<br> org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)<br> org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)]
+</details>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Case: Login Successfully</p>
+            <p class="text-sm">
+              <span>8:37:27 AM</span> / <span>00:00:00:530</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test Case: Login Successfully</h5>
+<span class='badge badge-success'>02.13.2024 8:37:27 AM</span>
+<span class='badge badge-danger'>02.13.2024 8:37:27 AM</span>
+<span class='badge badge-default'>00:00:00:530</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <span class='badge white-text teal'>Endpoint is https://reqres.in/api/login</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <span class='badge white-text teal'>Method is POST</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <span class='badge white-text teal'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Accept</td><td>application/json</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <span class='badge white-text teal'>Request body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-20'></div>
+ <script>
+  function jsonTreeCreate20() { 
+   document.getElementById('code-block-json-20').innerHTML = JSONTree.create({"email":"eve.holt@reqres.in","password":"cityslicka"}); 
+  }
+  jsonTreeCreate20();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response status is 200</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Tue, 13 Feb 2024 01:37:26 GMT</td></tr><tr><td>Content-Type</td><td>application/json; charset=utf-8</td></tr><tr><td>Content-Length</td><td>29</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Report-To</td><td>{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1707788246&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=t%2B8yCc3vnTrPGJLXgDmABdiMK5ptEjfKqRkxxJzhVmE%3D"}]}</td></tr><tr><td>Reporting-Endpoints</td><td>heroku-nel=https://nel.heroku.com/reports?ts=1707788246&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=t%2B8yCc3vnTrPGJLXgDmABdiMK5ptEjfKqRkxxJzhVmE%3D</td></tr><tr><td>Nel</td><td>{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}</td></tr><tr><td>X-Powered-By</td><td>Express</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Etag</td><td>W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"</td></tr><tr><td>Via</td><td>1.1 vegur</td></tr><tr><td>CF-Cache-Status</td><td>DYNAMIC</td></tr><tr><td>Server</td><td>cloudflare</td></tr><tr><td>CF-RAY</td><td>8549589a9f3d509b-HKG</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-21'></div>
+ <script>
+  function jsonTreeCreate21() { 
+   document.getElementById('code-block-json-21').innerHTML = JSONTree.create({
+    "token": "QpwL5tke4Pnpja7X4"
+}); 
+  }
+  jsonTreeCreate21();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <span class='badge white-text teal'>Captured Curl is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <pre>curl --location --request POST https://reqres.in/api/login \
+--header 'Accept:application/json'\
+--header 'Content-Type:application/json'\
+--data-raw '{"email":"eve.holt@reqres.in","password":"cityslicka"}'</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <span class='badge white-text green'>All assertions are passed. 😊😊😊😊😊</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>JSON_PATH</td><td>EXPECTED_VALUE</td><td>ACTUAL_VALUE</td><td>RESULT</td></tr><tr><td>token</td><td>QpwL5tke4Pnpja7X4</td><td>QpwL5tke4Pnpja7X4</td><td>MATCHED ✅</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:37:27 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Case: Login Unsuccessfully</p>
+            <p class="text-sm">
+              <span>8:37:27 AM</span> / <span>00:00:00:518</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test Case: Login Unsuccessfully</h5>
+<span class='badge badge-success'>02.13.2024 8:37:27 AM</span>
+<span class='badge badge-danger'>02.13.2024 8:37:28 AM</span>
+<span class='badge badge-default'>00:00:00:518</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <span class='badge white-text teal'>Endpoint is https://reqres.in/api/login</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <span class='badge white-text teal'>Method is POST</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <span class='badge white-text teal'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Accept</td><td>application/json</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <span class='badge white-text teal'>Request body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-22'></div>
+ <script>
+  function jsonTreeCreate22() { 
+   document.getElementById('code-block-json-22').innerHTML = JSONTree.create({"email":"peter@klaven","password":""}); 
+  }
+  jsonTreeCreate22();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response status is 400</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Tue, 13 Feb 2024 01:37:27 GMT</td></tr><tr><td>Content-Type</td><td>application/json; charset=utf-8</td></tr><tr><td>Content-Length</td><td>28</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Report-To</td><td>{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1707788246&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=t%2B8yCc3vnTrPGJLXgDmABdiMK5ptEjfKqRkxxJzhVmE%3D"}]}</td></tr><tr><td>Reporting-Endpoints</td><td>heroku-nel=https://nel.heroku.com/reports?ts=1707788246&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=t%2B8yCc3vnTrPGJLXgDmABdiMK5ptEjfKqRkxxJzhVmE%3D</td></tr><tr><td>Nel</td><td>{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}</td></tr><tr><td>X-Powered-By</td><td>Express</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Etag</td><td>W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"</td></tr><tr><td>Via</td><td>1.1 vegur</td></tr><tr><td>CF-Cache-Status</td><td>DYNAMIC</td></tr><tr><td>Server</td><td>cloudflare</td></tr><tr><td>CF-RAY</td><td>8549589dea9804f3-HKG</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-23'></div>
+ <script>
+  function jsonTreeCreate23() { 
+   document.getElementById('code-block-json-23').innerHTML = JSONTree.create({
+    "error": "Missing password"
+}); 
+  }
+  jsonTreeCreate23();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <span class='badge white-text teal'>Captured Curl is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <pre>curl --location --request POST https://reqres.in/api/login \
+--header 'Accept:application/json'\
+--header 'Content-Type:application/json'\
+--data-raw '{"email":"peter@klaven","password":""}'</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <span class='badge white-text green'>All assertions are passed. 😊😊😊😊😊</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>JSON_PATH</td><td>EXPECTED_VALUE</td><td>ACTUAL_VALUE</td><td>RESULT</td></tr><tr><td>error</td><td>Missing password</td><td>Missing password</td><td>MATCHED ✅</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Case: readAnExistingUserTests</p>
+            <p class="text-sm">
+              <span>8:37:28 AM</span> / <span>00:00:00:532</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test Case: readAnExistingUserTests</h5>
+<span class='badge badge-success'>02.13.2024 8:37:28 AM</span>
+<span class='badge badge-danger'>02.13.2024 8:37:28 AM</span>
+<span class='badge badge-default'>00:00:00:532</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <span class='badge white-text teal'>Endpoint is https://reqres.in/api/users/2</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <span class='badge white-text teal'>Method is GET</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <span class='badge white-text teal'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Authorization</td><td>Bearer QpwL5tke4Pnpja7X4</td></tr><tr><td>Accept</td><td>*/*</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <span class='badge white-text teal'>Request body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response status is 200</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Tue, 13 Feb 2024 01:37:27 GMT</td></tr><tr><td>Content-Type</td><td>application/json; charset=utf-8</td></tr><tr><td>Transfer-Encoding</td><td>chunked</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Report-To</td><td>{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1707093929&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=iS027jripGkLTEvTQW5QlvIzzeNFJoAT72b%2BDnbAwQs%3D"}]}</td></tr><tr><td>Reporting-Endpoints</td><td>heroku-nel=https://nel.heroku.com/reports?ts=1707093929&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=iS027jripGkLTEvTQW5QlvIzzeNFJoAT72b%2BDnbAwQs%3D</td></tr><tr><td>Nel</td><td>{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}</td></tr><tr><td>X-Powered-By</td><td>Express</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Etag</td><td>W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"</td></tr><tr><td>Via</td><td>1.1 vegur</td></tr><tr><td>CF-Cache-Status</td><td>BYPASS</td></tr><tr><td>Vary</td><td>Accept-Encoding</td></tr><tr><td>Server</td><td>cloudflare</td></tr><tr><td>CF-RAY</td><td>854958a12a70b441-HKG</td></tr><tr><td>Content-Encoding</td><td>gzip</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-25'></div>
+ <script>
+  function jsonTreeCreate25() { 
+   document.getElementById('code-block-json-25').innerHTML = JSONTree.create({
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}); 
+  }
+  jsonTreeCreate25();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <span class='badge white-text teal'>Captured Curl is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          <pre>curl --location --request GET https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:37:28 AM</td>
+        <td>
+          Test passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Case: readNonExistingUserTests</p>
+            <p class="text-sm">
+              <span>8:37:28 AM</span> / <span>00:00:00:519</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test Case: readNonExistingUserTests</h5>
+<span class='badge badge-success'>02.13.2024 8:37:28 AM</span>
+<span class='badge badge-danger'>02.13.2024 8:37:29 AM</span>
+<span class='badge badge-default'>00:00:00:519</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <span class='badge white-text teal'>Endpoint is https://reqres.in/api/users/Rh</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <span class='badge white-text teal'>Method is GET</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <span class='badge white-text teal'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Authorization</td><td>Bearer QpwL5tke4Pnpja7X4</td></tr><tr><td>Accept</td><td>*/*</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <span class='badge white-text teal'>Request body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response status is 404</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Tue, 13 Feb 2024 01:37:28 GMT</td></tr><tr><td>Content-Type</td><td>application/json; charset=utf-8</td></tr><tr><td>Content-Length</td><td>2</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Report-To</td><td>{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1707788248&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=kxBtJiFlPP8aBU%2BLD%2B%2FDZKuF6OL1K%2BFglILPQaLzK%2F4%3D"}]}</td></tr><tr><td>Reporting-Endpoints</td><td>heroku-nel=https://nel.heroku.com/reports?ts=1707788248&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=kxBtJiFlPP8aBU%2BLD%2B%2FDZKuF6OL1K%2BFglILPQaLzK%2F4%3D</td></tr><tr><td>Nel</td><td>{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}</td></tr><tr><td>X-Powered-By</td><td>Express</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Etag</td><td>W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"</td></tr><tr><td>Via</td><td>1.1 vegur</td></tr><tr><td>CF-Cache-Status</td><td>BYPASS</td></tr><tr><td>Vary</td><td>Accept-Encoding</td></tr><tr><td>Server</td><td>cloudflare</td></tr><tr><td>CF-RAY</td><td>854958a47ba524c7-HKG</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-27'></div>
+ <script>
+  function jsonTreeCreate27() { 
+   document.getElementById('code-block-json-27').innerHTML = JSONTree.create({
+    
+}); 
+  }
+  jsonTreeCreate27();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <span class='badge white-text teal'>Captured Curl is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <pre>curl --location --request GET https://reqres.in/api/users/Rh \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          Test passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Case: readUserWithUnauthorizedPermission</p>
+            <p class="text-sm">
+              <span>8:37:29 AM</span> / <span>00:00:00:115</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Test Case: readUserWithUnauthorizedPermission</h5>
+<span class='badge badge-success'>02.13.2024 8:37:29 AM</span>
+<span class='badge badge-danger'>02.13.2024 8:37:29 AM</span>
+<span class='badge badge-default'>00:00:00:115</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <span class='badge white-text teal'>Endpoint is https://reqres.in/api/users/2</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <span class='badge white-text teal'>Method is GET</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <span class='badge white-text teal'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Authorization</td><td>Bearer QpwL5tke4Pnpja7X4Unauthorized</td></tr><tr><td>Accept</td><td>*/*</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <span class='badge white-text teal'>Request body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response status is 200</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Tue, 13 Feb 2024 01:37:28 GMT</td></tr><tr><td>Content-Type</td><td>application/json; charset=utf-8</td></tr><tr><td>Transfer-Encoding</td><td>chunked</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Report-To</td><td>{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1706675448&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=nwiDnc9pXYVs1bpARh1eUlI7z8mItQds9FJG7JHfxGU%3D"}]}</td></tr><tr><td>Reporting-Endpoints</td><td>heroku-nel=https://nel.heroku.com/reports?ts=1706675448&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=nwiDnc9pXYVs1bpARh1eUlI7z8mItQds9FJG7JHfxGU%3D</td></tr><tr><td>Nel</td><td>{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}</td></tr><tr><td>X-Powered-By</td><td>Express</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Etag</td><td>W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"</td></tr><tr><td>Via</td><td>1.1 vegur</td></tr><tr><td>Cache-Control</td><td>max-age=14400</td></tr><tr><td>CF-Cache-Status</td><td>HIT</td></tr><tr><td>Age</td><td>1999</td></tr><tr><td>Vary</td><td>Accept-Encoding</td></tr><tr><td>Server</td><td>cloudflare</td></tr><tr><td>CF-RAY</td><td>854958a7b97604f4-HKG</td></tr><tr><td>Content-Encoding</td><td>gzip</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-29'></div>
+ <script>
+  function jsonTreeCreate29() { 
+   document.getElementById('code-block-json-29').innerHTML = JSONTree.create({
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}); 
+  }
+  jsonTreeCreate29();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <span class='badge white-text teal'>Captured Curl is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <pre>curl --location --request GET https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4Unauthorized'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <span class='badge white-text red'>expected [401] but found [200]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:37:29 AM</td>
+        <td>
+          <details>
+    <summary>Click Here To See Exception Logs</summary>
+    [org.testng.Assert.fail(Assert.java:110)<br> org.testng.Assert.failNotEquals(Assert.java:1413)<br> org.testng.Assert.assertEqualsImpl(Assert.java:149)<br> org.testng.Assert.assertEquals(Assert.java:131)<br> org.testng.Assert.assertEquals(Assert.java:1240)<br> org.testng.Assert.assertEquals(Assert.java:1274)<br> tests.ReadAUserTests.readUserWithUnauthorizedPermission(ReadAUserTests.java:77)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1596)<br> org.testng.TestRunner.privateRun(TestRunner.java:829)<br> org.testng.TestRunner.run(TestRunner.java:602)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:437)<br> org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)<br> org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)<br> org.testng.SuiteRunner.run(SuiteRunner.java:330)<br> org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br> org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br> org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)<br> org.testng.TestNG.runSuitesLocally(TestNG.java:1176)<br> org.testng.TestNG.runSuites(TestNG.java:1099)<br> org.testng.TestNG.run(TestNG.java:1067)<br> org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)<br> org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)<br> org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)<br> org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)<br> org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)<br> org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)<br> org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)]
+</details>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Case: Update User Successful - Valid Values to Required Fields</p>
+            <p class="text-sm">
+              <span>8:37:29 AM</span> / <span>00:00:00:555</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test Case: Update User Successful - Valid Values to Required Fields</h5>
+<span class='badge badge-success'>02.13.2024 8:37:29 AM</span>
+<span class='badge badge-danger'>02.13.2024 8:37:30 AM</span>
+<span class='badge badge-default'>00:00:00:555</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <span class='badge white-text teal'>Endpoint is https://reqres.in/api/users/2</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <span class='badge white-text teal'>Method is PUT</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <span class='badge white-text teal'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Authorization</td><td>Bearer QpwL5tke4Pnpja7X4</td></tr><tr><td>Accept</td><td>*/*</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <span class='badge white-text teal'>Request body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-30'></div>
+ <script>
+  function jsonTreeCreate30() { 
+   document.getElementById('code-block-json-30').innerHTML = JSONTree.create({"name":"PipbyinSYnrT","job":"sggCcyfgyDSp"}); 
+  }
+  jsonTreeCreate30();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response status is 200</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Tue, 13 Feb 2024 01:37:28 GMT</td></tr><tr><td>Content-Type</td><td>application/json; charset=utf-8</td></tr><tr><td>Transfer-Encoding</td><td>chunked</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Report-To</td><td>{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1707788248&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=kxBtJiFlPP8aBU%2BLD%2B%2FDZKuF6OL1K%2BFglILPQaLzK%2F4%3D"}]}</td></tr><tr><td>Reporting-Endpoints</td><td>heroku-nel=https://nel.heroku.com/reports?ts=1707788248&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=kxBtJiFlPP8aBU%2BLD%2B%2FDZKuF6OL1K%2BFglILPQaLzK%2F4%3D</td></tr><tr><td>Nel</td><td>{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}</td></tr><tr><td>X-Powered-By</td><td>Express</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Etag</td><td>W/"53-NQ5DLAqYvy1GcbLOVaeEZ4hQO7Y"</td></tr><tr><td>Via</td><td>1.1 vegur</td></tr><tr><td>CF-Cache-Status</td><td>DYNAMIC</td></tr><tr><td>Vary</td><td>Accept-Encoding</td></tr><tr><td>Server</td><td>cloudflare</td></tr><tr><td>CF-RAY</td><td>854958a8afc1858b-HKG</td></tr><tr><td>Content-Encoding</td><td>gzip</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-31'></div>
+ <script>
+  function jsonTreeCreate31() { 
+   document.getElementById('code-block-json-31').innerHTML = JSONTree.create({
+    "name": "PipbyinSYnrT",
+    "job": "sggCcyfgyDSp",
+    "updatedAt": "2024-02-13T01:37:28.737Z"
+}); 
+  }
+  jsonTreeCreate31();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <span class='badge white-text teal'>Captured Curl is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <pre>curl --location --request PUT https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"PipbyinSYnrT","job":"sggCcyfgyDSp"}'</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <span class='badge white-text green'>All assertions are passed. 😊😊😊😊😊</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>JSON_PATH</td><td>EXPECTED_VALUE</td><td>ACTUAL_VALUE</td><td>RESULT</td></tr><tr><td>name</td><td>PipbyinSYnrT</td><td>PipbyinSYnrT</td><td>MATCHED ✅</td></tr><tr><td>job</td><td>sggCcyfgyDSp</td><td>sggCcyfgyDSp</td><td>MATCHED ✅</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          Test passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Case: Update User Unsuccessful - Empty Required Field</p>
+            <p class="text-sm">
+              <span>8:37:30 AM</span> / <span>00:00:00:526</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Test Case: Update User Unsuccessful - Empty Required Field</h5>
+<span class='badge badge-success'>02.13.2024 8:37:30 AM</span>
+<span class='badge badge-danger'>02.13.2024 8:37:30 AM</span>
+<span class='badge badge-default'>00:00:00:526</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <span class='badge white-text teal'>Endpoint is https://reqres.in/api/users/2</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <span class='badge white-text teal'>Method is PUT</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <span class='badge white-text teal'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Authorization</td><td>Bearer QpwL5tke4Pnpja7X4</td></tr><tr><td>Accept</td><td>*/*</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <span class='badge white-text teal'>Request body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-32'></div>
+ <script>
+  function jsonTreeCreate32() { 
+   document.getElementById('code-block-json-32').innerHTML = JSONTree.create({"name":"icoXVxvDvkLs","job":""}); 
+  }
+  jsonTreeCreate32();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response status is 200</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Tue, 13 Feb 2024 01:37:29 GMT</td></tr><tr><td>Content-Type</td><td>application/json; charset=utf-8</td></tr><tr><td>Transfer-Encoding</td><td>chunked</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Report-To</td><td>{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1707788249&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=%2Fn5Ih1JFJvFA3B0LQ0tTjE1D42rwMX3pUoV02IaspUE%3D"}]}</td></tr><tr><td>Reporting-Endpoints</td><td>heroku-nel=https://nel.heroku.com/reports?ts=1707788249&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=%2Fn5Ih1JFJvFA3B0LQ0tTjE1D42rwMX3pUoV02IaspUE%3D</td></tr><tr><td>Nel</td><td>{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}</td></tr><tr><td>X-Powered-By</td><td>Express</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Etag</td><td>W/"47-wjpmvH0vdx9VxhQnBIzx4LypaU4"</td></tr><tr><td>Via</td><td>1.1 vegur</td></tr><tr><td>CF-Cache-Status</td><td>DYNAMIC</td></tr><tr><td>Vary</td><td>Accept-Encoding</td></tr><tr><td>Server</td><td>cloudflare</td></tr><tr><td>CF-RAY</td><td>854958ac2f752112-HKG</td></tr><tr><td>Content-Encoding</td><td>gzip</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-33'></div>
+ <script>
+  function jsonTreeCreate33() { 
+   document.getElementById('code-block-json-33').innerHTML = JSONTree.create({
+    "name": "icoXVxvDvkLs",
+    "job": "",
+    "updatedAt": "2024-02-13T01:37:29.290Z"
+}); 
+  }
+  jsonTreeCreate33();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <span class='badge white-text teal'>Captured Curl is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <pre>curl --location --request PUT https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"icoXVxvDvkLs","job":""}'</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <span class='badge white-text red'>expected [400] but found [200]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          <details>
+    <summary>Click Here To See Exception Logs</summary>
+    [org.testng.Assert.fail(Assert.java:110)<br> org.testng.Assert.failNotEquals(Assert.java:1413)<br> org.testng.Assert.assertEqualsImpl(Assert.java:149)<br> org.testng.Assert.assertEquals(Assert.java:131)<br> org.testng.Assert.assertEquals(Assert.java:1240)<br> org.testng.Assert.assertEquals(Assert.java:1274)<br> tests.UpdateAUserTests.updateAUserTests(UpdateAUserTests.java:56)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1596)<br> org.testng.TestRunner.privateRun(TestRunner.java:829)<br> org.testng.TestRunner.run(TestRunner.java:602)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:437)<br> org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)<br> org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)<br> org.testng.SuiteRunner.run(SuiteRunner.java:330)<br> org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br> org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br> org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)<br> org.testng.TestNG.runSuitesLocally(TestNG.java:1176)<br> org.testng.TestNG.runSuites(TestNG.java:1099)<br> org.testng.TestNG.run(TestNG.java:1067)<br> org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)<br> org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)<br> org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)<br> org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)<br> org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)<br> org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)<br> org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)]
+</details>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Case: Update User Unsuccessful - Do not send Required Field</p>
+            <p class="text-sm">
+              <span>8:37:30 AM</span> / <span>00:00:00:543</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Test Case: Update User Unsuccessful - Do not send Required Field</h5>
+<span class='badge badge-success'>02.13.2024 8:37:30 AM</span>
+<span class='badge badge-danger'>02.13.2024 8:37:31 AM</span>
+<span class='badge badge-default'>00:00:00:543</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:31 AM</td>
+        <td>
+          <span class='badge white-text teal'>Endpoint is https://reqres.in/api/users/2</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:31 AM</td>
+        <td>
+          <span class='badge white-text teal'>Method is PUT</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:31 AM</td>
+        <td>
+          <span class='badge white-text teal'>Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:31 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Authorization</td><td>Bearer QpwL5tke4Pnpja7X4</td></tr><tr><td>Accept</td><td>*/*</td></tr><tr><td>Content-Type</td><td>application/json</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:31 AM</td>
+        <td>
+          <span class='badge white-text teal'>Request body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:31 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-34'></div>
+ <script>
+  function jsonTreeCreate34() { 
+   document.getElementById('code-block-json-34').innerHTML = JSONTree.create({}); 
+  }
+  jsonTreeCreate34();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:31 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response status is 200</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:31 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response Headers are </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:31 AM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Date</td><td>Tue, 13 Feb 2024 01:37:29 GMT</td></tr><tr><td>Content-Type</td><td>application/json; charset=utf-8</td></tr><tr><td>Content-Length</td><td>40</td></tr><tr><td>Connection</td><td>keep-alive</td></tr><tr><td>Report-To</td><td>{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1707788249&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=%2Fn5Ih1JFJvFA3B0LQ0tTjE1D42rwMX3pUoV02IaspUE%3D"}]}</td></tr><tr><td>Reporting-Endpoints</td><td>heroku-nel=https://nel.heroku.com/reports?ts=1707788249&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=%2Fn5Ih1JFJvFA3B0LQ0tTjE1D42rwMX3pUoV02IaspUE%3D</td></tr><tr><td>Nel</td><td>{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}</td></tr><tr><td>X-Powered-By</td><td>Express</td></tr><tr><td>Access-Control-Allow-Origin</td><td>*</td></tr><tr><td>Etag</td><td>W/"28-/pVzVJsiLWQo+zSmx76Bt09FSjc"</td></tr><tr><td>Via</td><td>1.1 vegur</td></tr><tr><td>CF-Cache-Status</td><td>DYNAMIC</td></tr><tr><td>Vary</td><td>Accept-Encoding</td></tr><tr><td>Server</td><td>cloudflare</td></tr><tr><td>CF-RAY</td><td>854958af6d7e7be4-HKG</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:31 AM</td>
+        <td>
+          <span class='badge white-text teal'>Response body is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:31 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-35'></div>
+ <script>
+  function jsonTreeCreate35() { 
+   document.getElementById('code-block-json-35').innerHTML = JSONTree.create({
+    "updatedAt": "2024-02-13T01:37:29.824Z"
+}); 
+  }
+  jsonTreeCreate35();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:31 AM</td>
+        <td>
+          <span class='badge white-text teal'>Captured Curl is </span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:31 AM</td>
+        <td>
+          <pre>curl --location --request PUT https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{}'</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:37:31 AM</td>
+        <td>
+          <span class='badge white-text red'>expected [400] but found [200]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:37:31 AM</td>
+        <td>
+          <details>
+    <summary>Click Here To See Exception Logs</summary>
+    [org.testng.Assert.fail(Assert.java:110)<br> org.testng.Assert.failNotEquals(Assert.java:1413)<br> org.testng.Assert.assertEqualsImpl(Assert.java:149)<br> org.testng.Assert.assertEquals(Assert.java:131)<br> org.testng.Assert.assertEquals(Assert.java:1240)<br> org.testng.Assert.assertEquals(Assert.java:1274)<br> tests.UpdateAUserTests.updateAUserTests(UpdateAUserTests.java:56)<br> java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)<br> java.base/java.lang.reflect.Method.invoke(Method.java:580)<br> org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br> org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)<br> org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br> org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)<br> org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)<br> org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br> org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br> java.base/java.util.ArrayList.forEach(ArrayList.java:1596)<br> org.testng.TestRunner.privateRun(TestRunner.java:829)<br> org.testng.TestRunner.run(TestRunner.java:602)<br> org.testng.SuiteRunner.runTest(SuiteRunner.java:437)<br> org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)<br> org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)<br> org.testng.SuiteRunner.run(SuiteRunner.java:330)<br> org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br> org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br> org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)<br> org.testng.TestNG.runSuitesLocally(TestNG.java:1176)<br> org.testng.TestNG.runSuites(TestNG.java:1099)<br> org.testng.TestNG.run(TestNG.java:1067)<br> org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)<br> org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)<br> org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)<br> org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)<br> org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)<br> org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)<br> org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)]
+</details>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Feb 13, 2024 08:37:21 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Feb 13, 2024 08:37:31 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>7</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>9</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='43%'>
+<b>7</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='56%'><b>9</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='4%'><b>11</b> events passed</small></div>
+<div>
+<small data-tooltip='6%'><b>18</b> events failed,
+<b data-tooltip='%'>238</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Test Case: Create User Successful - Valid Values to Required Fields":0.83,"Test Case: Create User Unsuccessful - Empty Required Field":0.53,"Test Case: Create User Unsuccessful - Do not send Required Field":0.524,"Test Case: deleteAnExistingUserTests":0.543,"Test Case: deleteNonExistingUserTests":0.508,"Test Case: deleteUserWithUnauthorizedPermission":0.541,"Test Case: deleteUserAfterBeingCreated":1.031,"Test Case: updateUserAfterBeingCreated":1.076,"Test Case: Login Successfully":0.53,"Test Case: Login Unsuccessfully":0.518,"Test Case: readAnExistingUserTests":0.532,"Test Case: readNonExistingUserTests":0.519,"Test Case: readUserWithUnauthorizedPermission":0.115,"Test Case: Update User Successful - Valid Values to Required Fields":0.555,"Test Case: Update User Unsuccessful - Empty Required Field":0.526,"Test Case: Update User Unsuccessful - Do not send Required Field":0.543
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Application</td>
+<td>Reqres.In API</td>
+</tr>
+<tr>
+<td>Operating System</td>
+<td>Windows 11</td>
+</tr>
+<tr>
+<td>User Name</td>
+<td>AD</td>
+</tr>
+<tr>
+<td>Environemnt</td>
+<td>QA</td>
+</tr>
+<tr>
+<td>user</td>
+<td>vund92</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 7,
+failParent: 9,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 11,
+failEvents: 18,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 238
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

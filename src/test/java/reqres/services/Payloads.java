@@ -1,4 +1,4 @@
-package reqres;
+package reqres.services;
 
 import net.datafaker.Faker;
 import reqres.pojos.Login;
@@ -45,10 +45,7 @@ public class Payloads {
                 .build();
     }
 
-    /**
-     * Draft section
-     * **/
-    public static Map<String, Object> getCreateReqresUserPayloadFromMapDraft() {
+    public static Map<String, Object> getCreateReqresUserPayloadFromMapUsingFaker() {
         Map<String, Object> payload = new HashMap<>();
         Faker faker = new Faker();
         payload.put("name", faker.name().name());

@@ -1,4 +1,4 @@
-package reqres;
+package reqres.services;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.response.Response;
@@ -54,7 +54,7 @@ public class ReqresUserAPIs {
     }
 
     public static String getToken() throws IOException {
-        String env = System.getProperty("env") == null ? "qa" : System.getProperty("env");
+        String env = System.getProperty("env") == null ? "stage" : System.getProperty("env");
         String jsonFile = "reqres/" + env + "/successfulLoginResults.json";
         String jsonFilePath = PROJECT_PATH + "/src/test/resources/" + jsonFile;
         String token = null;

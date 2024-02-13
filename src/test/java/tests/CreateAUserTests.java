@@ -1,4 +1,4 @@
-package reqres;
+package tests;
 
 import com.aventstack.extentreports.ExtentTest;
 import io.restassured.response.Response;
@@ -9,6 +9,8 @@ import org.testng.annotations.Test;
 import reporting.Setup;
 import reqres.dataProviders.UserDataProvider;
 import reqres.pojos.ReqresUser;
+import reqres.services.Base;
+import reqres.services.ReqresUserAPIs;
 import restUtils.AssertionUtils;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import utils.JsonUtils;

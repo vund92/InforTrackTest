@@ -1,7 +1,6 @@
-package reqres;
+package tests;
 
 import com.aventstack.extentreports.ExtentTest;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -9,6 +8,8 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import reporting.Setup;
 import reqres.pojos.ReqresUserResponse;
+import reqres.services.Base;
+import reqres.services.ReqresUserAPIs;
 import utils.RandomDataGenerator_Reqres;
 
 import java.io.IOException;
@@ -16,7 +17,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Listeners(reporting.Setup.class)
-public class ReadAUserTests extends ReqresUserAPIs {
+public class DeleteAUserTests extends ReqresUserAPIs {
     public static String token = Base.token;
     public static ReqresUserResponse reqresUserResponse = Base.reqresUserResponse;
 
@@ -24,8 +25,8 @@ public class ReadAUserTests extends ReqresUserAPIs {
     static void setUp() throws IOException {
     }
 
-    @Test(description = "200 - Read an existing user", groups = "create_a_user_tests")
-    public void readAnExistingUserTests() throws IOException {
+    @Test(description = "204 - Delete an existing user", groups = "create_a_user_tests")
+    public void deleteAnExistingUserTests() throws IOException {
         String testMethodName = new Object(){}.getClass().getEnclosingMethod().getName();
         ExtentTest test = Setup.extentReports.createTest("Test Case: " + testMethodName);
         Setup.extentTest.set(test);
@@ -34,18 +35,15 @@ public class ReadAUserTests extends ReqresUserAPIs {
         Map<String, String> headers = new HashMap<>();
         headers.put("Authorization", "Bearer " + token);
 
-        Response response = getUser(userId,new HashMap<>(),new HashMap<>(),headers);
+        Response response = deleteUser(userId,new HashMap<>(),new HashMap<>(),headers);
         System.out.println(response.prettyPrint());
 
-        ObjectMapper objectMapper = new ObjectMapper();
-        ReqresUserResponse actualReqresUserResponse = objectMapper.readValue(response.getBody().asString(), ReqresUserResponse.class);
-
-        Assert.assertEquals(actualReqresUserResponse, reqresUserResponse);
+        Assert.assertEquals(response.statusCode(),204);
         test.pass("Test passed!");
     }
 
-    @Test(description = "404 - Read non-existing user", groups = "create_a_user_tests")
-    public void readNonExistingUserTests() throws IOException {
+    @Test(description = "404 - Delete non-existing user", groups = "create_a_user_tests")
+    public void deleteNonExistingUserTests() throws IOException {
         String testMethodName = new Object(){}.getClass().getEnclosingMethod().getName();
         ExtentTest test = Setup.extentReports.createTest("Test Case: " + testMethodName);
         Setup.extentTest.set(test);
@@ -54,14 +52,14 @@ public class ReadAUserTests extends ReqresUserAPIs {
         Map<String, String> headers = new HashMap<>();
         headers.put("Authorization", "Bearer " + token);
 
-        Response response = getUser(userId,new HashMap<>(),new HashMap<>(),headers);
+        Response response = deleteUser(userId,new HashMap<>(),new HashMap<>(),headers);
 
         Assert.assertEquals(response.statusCode(),404);
         test.pass("Test passed!");
     }
 
     @Test(description = "401 - Unauthorized error response when authentication token is missing/wrong", groups = "create_a_user_tests")
-    public void readUserWithUnauthorizedPermission() throws IOException {
+    public void deleteUserWithUnauthorizedPermission() throws IOException {
         String testMethodName = new Object(){}.getClass().getEnclosingMethod().getName();
         ExtentTest test = Setup.extentReports.createTest("Test Case: " + testMethodName);
         Setup.extentTest.set(test);
@@ -70,7 +68,7 @@ public class ReadAUserTests extends ReqresUserAPIs {
         Map<String, String> headers = new HashMap<>();
         headers.put("Authorization", "Bearer " + token + "Unauthorized");
 
-        Response response = getUser(userId,new HashMap<>(),new HashMap<>(),headers);
+        Response response = deleteUser(userId,new HashMap<>(),new HashMap<>(),headers);
 
         Assert.assertEquals(response.statusCode(),401);
         test.pass("Test passed!");
