@@ -1,0 +1,19 @@
+
+[INFO ] 2024-02-20 18:46:00.113 RestReqFilter:46 
+Response code: 200
+Response Body:
+{
+    "name": "OaTHHUOZacfW",
+    "job": "tDBJZexYBsCr",
+    "updatedAt": "2024-02-20T11:45:59.334Z"
+}
+You can use following cURL to reproduce the same request:
+curl --location --request PUT https://reqres.in/api/users/2 \
+--header 'Authorization:Bearer QpwL5tke4Pnpja7X4'\
+--header 'Accept:*/*'\
+--header 'Content-Type:application/json'\
+--data-raw '{"name":"OaTHHUOZacfW","job":"tDBJZexYBsCr"}'
+
+[INFO ] 2024-02-20 18:46:00.120 RestReqFilter:52 
+x-mm-correlation-id=null
+

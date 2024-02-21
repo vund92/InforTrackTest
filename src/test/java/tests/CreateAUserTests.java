@@ -2,6 +2,7 @@ package tests;
 
 import com.aventstack.extentreports.ExtentTest;
 import io.restassured.response.Response;
+import io.restassured.specification.ResponseSpecification;
 import org.hamcrest.Matchers;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
@@ -45,7 +46,7 @@ public class CreateAUserTests extends ReqresUserAPIs {
                     assertEquals(response.statusCode(), 201);
                     assertThat(response.jsonPath().getString("id"), Matchers.notNullValue());
                     assertThat(response.jsonPath().getString("createdAt"), Matchers.matchesRegex(AssertionUtils.createdAtRegexPattern));
-                    JsonSchemaValidator.matchesJsonSchema(schemaFile);
+                    response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(schemaFile));
                     expectedValueMap.put("name", ((ReqresUser) reqresUserData).getName());
                     expectedValueMap.put("job", ((ReqresUser) reqresUserData).getJob());
                     break;

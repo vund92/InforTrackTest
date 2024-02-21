@@ -33,7 +33,7 @@ public class UpdateAUserTests extends ReqresUserAPIs {
 
     @Test(dataProvider = "updateUserDataWithTestCaseName", description = "Create A User Tests", groups = "create_a_user_tests")
     public void updateAUserTests(LinkedHashMap<String, Object> reqresUser) throws IOException {
-        File schemaFile = new File(JsonUtils.getSchemaFileByName(Base.env,"schema-create-user-response-body"));
+        File schemaFile = new File(JsonUtils.getSchemaFileByName(Base.env,"schema-update-user-response-body"));
         for (Map.Entry<String, Object> entry : reqresUser.entrySet()) {
             String key = entry.getKey();
             Object reqresUserData = entry.getValue();
@@ -48,7 +48,7 @@ public class UpdateAUserTests extends ReqresUserAPIs {
                 case "Update User Successful - Valid Values to Required Fields":
                     assertEquals(response.statusCode(), 200);
                     assertThat(response.jsonPath().getString("updatedAt"), Matchers.matchesRegex(AssertionUtils.createdAtRegexPattern));
-                    JsonSchemaValidator.matchesJsonSchema(schemaFile);
+                    response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(schemaFile));
                     expectedValueMap.put("name", ((ReqresUser) reqresUserData).getName());
                     expectedValueMap.put("job", ((ReqresUser) reqresUserData).getJob());
                     break;

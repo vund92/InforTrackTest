@@ -52,7 +52,7 @@ public class LoginTests extends ReqresUserAPIs {
                     break;
             }
             AssertionUtils.assertExpectedValuesWithJsonPath(response, expectedValueMap);
-            test.pass("Test passed");
+            test.pass("Test passed!");
         }
     }
 
